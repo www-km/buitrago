@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor M3U8</title>
+    <link rel="stylesheet" href="epstyle.css"> <!-- Asegúrate de que la ruta sea correcta -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="player.js"></script>
+</head>
+<body class="m3u8">
+    <h1>Bienvenido al Reproductor M3U8</h1>
+    <video id="video" controls></video>
+    <script>
+        // Llama a la función initializePlayer con la URL M3U8
+        initializePlayer('video', 'https://moodle1.playmudos.com/NDFBM3VNQ1RiVkJpV0ovajFWbGhCeHBtQW9KTUxSU2JXT3lzQTl4cWR2bFhQOW1sekMrYVlRZWxaUUVtVVFnMg.m3u8');
+    </script>
+  <div class="controls">
+        <button onclick="location.href='episode5.html'">Episodio Anterior</button>
+        <button onclick="location.href='season1.html'">Lista de Episodios</button>
+        <button onclick="location.href='episode7.html'">Episodio Siguiente</button>
+        <button onclick="location.href='index.html'">Volver a la Página Principal</button>
+    </div>
+</body>
+</html>
+
