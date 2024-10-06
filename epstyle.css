@@ -1,0 +1,113 @@
+body.episode {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://maktechblog.com/wp-content/uploads/2024/07/Terabox-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden; /* Evita las barras de desplazamiento */
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ff00ff; /* Color disco */
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    margin-top: 20px;
+}
+
+.video-container {
+    width: 70%;
+    height: 95%; /* Reducir la altura del reproductor */
+    margin: 20px 0;
+    background-color: rgba(128, 128, 128, 0.5); /* Fondo gris traslúcido */
+    border: 2px solid lightgray; /* Borde gris claro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #ff00ff; /* Color disco */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ffff; /* Color disco */
+}
+body.m3u8 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://maktechblog.com/wp-content/uploads/2024/07/Terabox-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Evita las barras de desplazamiento */
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ff00ff; /* Color disco */
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    margin-top: 20px;
+}
+
+.video-container {
+    width: 100%;
+    height: 50%; /* Reducir la altura del reproductor */
+    margin: 20px 0;
+    background-color: rgba(128, 128, 128, 0.5); /* Fondo gris traslúcido */
+    border: 2px solid lightgray; /* Borde gris claro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    width: 70%;
+    height: 75%; /* Ajusta la altura automáticamente */
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #ff00ff; /* Color disco */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ffff; /* Color disco */
+}

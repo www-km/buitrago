@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.ytimg.com/vi/51I5tvvHxtI/maxresdefault.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+.details {
+    display: flex;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    margin-right: 10px; /* Reduce el espacio entre la imagen y la descripción */
+}
+
+.image img {
+    max-width: 65%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    flex: 2;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido */
+    max-height: 350px; /* Ajusta la altura máxima de la descripción */
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    animation: titleDisco 1s infinite alternate; /* Cambia el nombre de la animación */
+}
+
+@keyframes titleDisco {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: blue; }
+    75% { color: green; }
+    100% { color: purple; }
+}
+
+p {
+    font-size: 1.5em; /* Tamaño de fuente más pequeño para la descripción */
+    color: #666;
+    overflow: auto; /* Añade overflow a la descripción */
+}
+
+.episodes {
+    overflow: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido */
+    max-height: 140px; /* Altura máxima para la lista de episodios */
+}
+
+.episode {
+    padding: 10px;
+    margin: 10px 0;
+    background: linear-gradient(to bottom, blue, transparent 50%, gray 50%);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center; /* Centra el título */
+    font-size: 1em; /* Tamaño de fuente más grande */
+    border: 2px solid red; /* Borde rojo */
+}
+
+.episode:hover {
+    animation: pulse 1s infinite alternate, colorFade 5s infinite alternate;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, orange, red) 1;
+    transform: scale(1.05); /* Aumenta un poquito el tamaño */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes colorFade {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: orange;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+.nav-button {
+    display: block;
+    margin: 20px auto; /* Centra el botón horizontalmente */
+    padding: 10px 20px; /* Tamaño del botón */
+    font-size: 1.5em; /* Tamaño de la fuente */
+    font-family: 'Courier New', Courier, monospace; /* Fuente del botón */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: buttonDisco 1s infinite alternate; /* Cambia el nombre de la animación */
+    transition: transform 0.3s ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
+}
+
+@keyframes buttonDisco {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: blue; }
+    75% { background-color: green; }
+    100% { background-color: purple; }
+}

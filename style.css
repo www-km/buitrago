@@ -1,0 +1,64 @@
+body.index {
+    background-image: url('https://mumu.res.netease.com/pc/zt/20211209165734/img/bg_9439004.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    animation: disco 1s infinite alternate;
+    margin: 20px 0;
+}
+
+.carousel {
+    padding: 20px;
+    gap: 20px; /* Espacio entre las carátulas */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap; /* Evita que las imágenes se envuelvan a la siguiente línea */
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    gap: 20px; /* Espacio entre las carátulas */
+}
+
+.cover {
+    flex: 0 0 auto;
+    width: 200px; /* Asegura que todas las carátulas tengan el mismo tamaño */
+    height: 300px; /* Asegura que todas las carátulas tengan el mismo tamaño */
+    margin-bottom: 40px; /* Espacio adicional debajo de cada carátula */
+    transition: transform 0.3s;
+}
+
+.cover img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    object-fit: cover;
+}
+
+.cover p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    animation: disco 1s infinite alternate;
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.cover:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la carátula al pasar el cursor */
+}
+
+@keyframes disco {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: purple; }
+}
