@@ -1,87 +1,3 @@
-body.episode {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background: url('https://maktechblog.com/wp-content/uploads/2024/07/Terabox-1.jpg') no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Cambiado para mover el contenido hacia arriba */
-    height: 100vh;
-    overflow: hidden; /* Evita las barras de desplazamiento */
-    color: white;
-}
-
-h1 {
-    text-align: center;
-    font-size: 2em;
-    color: #ff00ff; /* Color disco */
-    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
-    margin: 20px 0;
-}
-
-.video-container {
-    width: auto; /* Ajustar automáticamente al video */
-    height: auto; /* Ajustar automáticamente al video */
-    max-width: 70%; /* Limitar el ancho máximo para móviles */
-    margin: 20px 0;
-    background-color: rgba(128, 128, 128, 0.5); /* Fondo gris traslúcido */
-    border: 2px solid lightgray; /* Borde gris claro */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-video {
-    width: 100%; /* Asegura que el video se adapte al contenedor */
-    height: auto; /* Mantener la proporción del video */
-}
-
-.controls {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 10px;
-}
-
-button {
-    background-color: #ff00ff; /* Color disco */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #00ffff; /* Color disco */
-}
-
-body.m3u8 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background: url('https://maktechblog.com/wp-content/uploads/2024/07/Terabox-1.jpg') no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Cambiado para mover el contenido hacia arriba */
-    height: 100vh;
-    overflow: hidden; /* Evita las barras de desplazamiento */
-    color: white;
-}
-.description {
-    width: 100%; /* Ancho completo del contenedor */
-    max-height: 100px; /* Altura máxima del contenedor */
-    overflow: auto; /* Habilitar desplazamiento */
-    border: 1px solid #ccc; /* Contorno del contenedor */
-    padding: 10px; /* Espacio interno */
-    margin-top: 10px; /* Espacio superior */
-    background-color: #f9f9f9; /* Color de fondo */
-}
 .advertisement {
     position: fixed; /* Fijo en la pantalla */
     top: 0;
@@ -91,7 +7,13 @@ body.m3u8 {
     padding: 20px; /* Espacio interno */
     text-align: center; /* Centrar texto */
     z-index: 1000; /* Asegurarse de que esté por encima de otros elementos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centrar contenido verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
 }
+
 .close-ad {
     background-color: #ff5c5c; /* Color del botón de cierre */
     border: none;
@@ -99,7 +21,8 @@ body.m3u8 {
     padding: 10px 15px;
     cursor: pointer;
     font-size: 16px; /* Tamaño de fuente */
+    position: absolute; /* Posición absoluta */
+    top: 10px; /* Espacio desde la parte superior */
+    right: 10px; /* Espacio desde la derecha */
+    z-index: 1001; /* Asegurarse de que esté por encima del anuncio */
 }
-#video {
-    display: none; /* Ocultar video inicialmente */
-        }
