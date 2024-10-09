@@ -1,0 +1,382 @@
+﻿[Script Info]
+Title: [Erai-raws] Français (France)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0002,0002,0025,1
+Style: Italique,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0002,0002,0025,1
+Style: TiretsDefault,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,1,0020,0002,0025,1
+Style: TiretsItalique,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,1,0020,0002,0025,1
+Style: SignNote,Arial,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0002,0002,0025,1
+Style: SignQuete,Lucida Console,14,&H00252421,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0002,0002,0025,1
+Style: Titre,Candara,29,&H00D9D9D9,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0002,0002,0075,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:19.16,0:00:20.95,Italique,Yûsuke,0000,0000,0000,,J’aime être seul.
+Dialogue: 0,0:00:25.33,0:00:26.88,Italique,Yûsuke,0000,0000,0000,,Je déteste cette ville.
+Dialogue: 0,0:00:32.92,0:00:36.14,Italique,Yûsuke,0000,0000,0000,,Et encore plus les gens qui y vivent.
+Dialogue: 0,0:00:50.82,0:00:53.07,Italique,Yûsuke,0000,0000,0000,,Même si je suis en danger de mort,
+Dialogue: 0,0:00:53.57,0:00:57.49,Italique,Yûsuke,0000,0000,0000,,cet endroit est bien plus excitant\Nque cette saloperie de Tokyo.
+Dialogue: 0,0:02:51.77,0:02:53.77,Default,lycéen,0000,0000,0000,,Sport dès le matin, ça craint.
+Dialogue: 0,0:02:53.90,0:02:55.40,Default,lycéen,0000,0000,0000,,Carrément, ouais.
+Dialogue: 0,0:02:55.52,0:02:57.15,Default,lycéenne,0000,0000,0000,,T’as vu le live d’hier ?
+Dialogue: 0,0:02:57.28,0:02:59.07,Default,lycéenne,0000,0000,0000,,À moitié, je me suis endormie.
+Dialogue: 0,0:02:59.20,0:03:00.86,Default,lycéenne,0000,0000,0000,,Sérieux ? Tu dors tôt.
+Dialogue: 0,0:03:01.82,0:03:03.70,TiretsDefault,professeur,0251,0000,0000,,– Yûta Nomura.\N– Présent.
+Dialogue: 0,0:03:03.87,0:03:05.33,Default,Yûta,0000,0000,0000,,Kusue Hakozaki…
+Dialogue: 0,0:03:05.95,0:03:09.08,Default,Professeur,0000,0000,0000,,Absente, elle est malade.
+Dialogue: 0,0:03:09.41,0:03:12.08,Default,lycéen,0000,0000,0000,,Hakozaki est souvent absente.
+Dialogue: 0,0:03:12.21,0:03:16.09,Default,lycéenne,0000,0000,0000,,Paraît qu’elle a la santé fragile.\NElle est même dispensée de sport.
+Dialogue: 0,0:03:16.21,0:03:17.21,Default,lycéenne,0000,0000,0000,,Vous savez quoi ?
+Dialogue: 0,0:03:17.34,0:03:20.17,Default,lycéenne,0000,0000,0000,,Nakata de la classe 1\Na tenté sa chance avec Shindô.
+Dialogue: 0,0:03:20.30,0:03:20.93,Default,lycéen,0000,0000,0000,,Sérieux ?
+Dialogue: 0,0:03:21.18,0:03:23.34,TiretsDefault,lycéenne+Lycéen,0259,0000,0000,,– T’y crois ?\N– Il va payer !
+Dialogue: 0,0:03:23.47,0:03:27.14,Default,professeur,0000,0000,0000,,Rendez vos fiches d’orientation\Ndemain, dernier délai.
+Dialogue: 0,0:03:33.10,0:03:34.06,Default,lycéen,0000,0000,0000,,C’est ça, regarde.
+Dialogue: 0,0:03:34.19,0:03:35.77,Default,lycéen,0000,0000,0000,,Mais c’est Shindô !
+Dialogue: 0,0:03:36.07,0:03:39.82,Default,lycéen,0000,0000,0000,,Les rumeurs disaient vrai,\Nelle est mannequin.
+Dialogue: 0,0:03:40.19,0:03:42.15,Default,lycéen,0000,0000,0000,,Elle est belle et intelligente.
+Dialogue: 0,0:03:44.62,0:03:45.57,Default,lycéen,0000,0000,0000,,Mlle Parfaite.
+Dialogue: 0,0:03:57.54,0:03:58.30,Default,Yuka,0000,0000,0000,,Oups.
+Dialogue: 0,0:04:01.56,0:04:02.59,Default,Yuka,0000,0000,0000,,C’est bon !
+Dialogue: 0,0:04:03.22,0:04:05.97,Default,Yuka,0000,0000,0000,,Décidément, un live à l’extérieur,
+Dialogue: 0,0:04:03.80,0:04:04.72,SignNote,Sign,0000,0000,0000,,ÇA VA ?
+Dialogue: 0,0:04:06.10,0:04:07.47,Default,Yuka,0000,0000,0000,,c’est pas la joie.
+Dialogue: 0,0:04:07.43,0:04:08.60,SignNote,Sign,0000,0000,0000,,BRAVO POUR TON AUDACE
+Dialogue: 0,0:04:13.48,0:04:15.35,Default,Yûsuke,0000,0000,0000,,Oui ! Vas-y !
+Dialogue: 0,0:04:15.94,0:04:17.52,Default,Yûsuke,0000,0000,0000,,Ouais !
+Dialogue: 0,0:04:19.23,0:04:21.03,Default,Yûsuke,0000,0000,0000,,Ça s’est joué de peu.
+Dialogue: 0,0:04:23.15,0:04:25.32,SignNote,Sign,0000,0000,0000,,NOS MEILLEURS VŒUX À YÛSUKE DE LA 6E 2
+Dialogue: 0,0:04:41.80,0:04:43.63,SignNote,Sign,0000,0000,0000,,{\pos(256.667,49.667)\bord0\c&H98948B&}CHARGÉ DE CORVÉE\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NYÛSUKE YOTSUYA
+Dialogue: 0,0:04:45.88,0:04:46.93,Default,Kusue,0000,0000,0000,,Shindô !
+Dialogue: 0,0:04:47.05,0:04:48.64,Default,Shindô,0000,0000,0000,,Oui, j’arrive.
+Dialogue: 0,0:04:51.18,0:04:52.22,Italique,Yûsuke,0000,0000,0000,,C’est ça ?
+Dialogue: 0,0:04:58.56,0:05:00.36,Italique,Yûsuke,0000,0000,0000,,Shindô est incroyable.
+Dialogue: 0,0:05:00.48,0:05:02.36,Italique,Yûsuke,0000,0000,0000,,En plus, elle est jolie.
+Dialogue: 0,0:05:03.65,0:05:07.20,Italique,Yûsuke,0000,0000,0000,,Nos mondes sont trop différents\Npour qu’elle m’intéresse.
+Dialogue: 0,0:05:08.03,0:05:09.74,TiretsDefault,Shindô+Kusue,0231,0000,0000,,– C’est aujourd’hui.\N– Oui…
+Dialogue: 0,0:05:10.45,0:05:12.20,Default,Shindô,0000,0000,0000,,Je stresse un peu.
+Dialogue: 0,0:05:12.70,0:05:13.91,Default,Kusue,0000,0000,0000,,Moi aussi.
+Dialogue: 0,0:05:14.33,0:05:15.96,Italique,Yûsuke,0000,0000,0000,,La fille dispensée de sport…
+Dialogue: 0,0:05:16.67,0:05:19.21,Italique,Yûsuke,0000,0000,0000,,Elles se fréquentaient,\Nces deux-là ?
+Dialogue: 0,0:05:22.55,0:05:23.92,Italique,Yûsuke,0000,0000,0000,,C’était quoi, ce regard ?
+Dialogue: 0,0:05:27.38,0:05:29.26,Default,Professeur,0000,0000,0000,,Tu ne m’as pas donné ta fiche,
+Dialogue: 0,0:05:29.60,0:05:31.60,Default,Professeur,0000,0000,0000,,et tu es le seul, Yotsuya.
+Dialogue: 0,0:05:33.31,0:05:34.98,Default,Professeur,0000,0000,0000,,Comme tu es bon coureur,
+Dialogue: 0,0:05:35.10,0:05:37.77,Default,Professeur,0000,0000,0000,,tu aurais pu être recommandé,\Navec l’athlétisme.
+Dialogue: 0,0:05:38.15,0:05:39.15,Default,Yûsuke,0000,0000,0000,,Oui…
+Dialogue: 0,0:05:46.32,0:05:47.82,Italique,Yûsuke,0000,0000,0000,,Encore elles…
+Dialogue: 0,0:05:48.24,0:05:50.91,Italique,Yûsuke,0000,0000,0000,,C’est rare de les voir ensemble.
+Dialogue: 0,0:05:51.12,0:05:53.49,Default,Professeur,0000,0000,0000,,Tu n’as vraiment\Naucun rêve d’avenir ?
+Dialogue: 0,0:05:54.29,0:05:56.79,Italique,Yûsuke,0000,0000,0000,,Si, rentrer à la maison et jouer.
+Dialogue: 0,0:05:57.71,0:06:00.17,Default,Yûsuke,0000,0000,0000,,J’y ai bien pensé\Net j’ai rien trouvé.
+Dialogue: 0,0:06:00.38,0:06:02.67,Italique,Yûsuke,0000,0000,0000,,Les lycées de Tokyo\Nme tentent pas.
+Dialogue: 0,0:06:03.05,0:06:06.09,Default,Professeur,0000,0000,0000,,Tu ne dis jamais ce que tu penses.
+Dialogue: 0,0:06:06.09,0:06:10.51,SignNote,Sign,0000,0000,0000,,{\bord0\fs35\c&H6D7675&\frz334.4\pos(246.667,110.333)\frx336\fry326}YÛSUKE
+Dialogue: 0,0:06:06.67,0:06:10.51,Default,Professeur,0000,0000,0000,,Sans ami à qui parler à cœur ouvert,\Ntu souffriras, au lycée.
+Dialogue: 0,0:06:10.76,0:06:13.51,Italique,Yûsuke,0000,0000,0000,,Il sait que j’ai pas de potes ?\NIncroyable…
+Dialogue: 0,0:06:13.89,0:06:16.18,Default,Yûsuke,0000,0000,0000,,Bon, ben, je vais voir…
+Dialogue: 0,0:06:16.31,0:06:19.94,Default,Yûsuke,0000,0000,0000,,Je crois que je vais chercher\Nun lycée ordinaire.
+Dialogue: 0,0:06:20.19,0:06:22.02,Default,Professeur,0000,0000,0000,,Bref, remets-moi ta fiche demain.
+Dialogue: 0,0:06:22.15,0:06:22.82,Default,Yûsuke,0000,0000,0000,,D’accord.
+Dialogue: 0,0:06:24.69,0:06:26.53,Italique,Yûsuke,0000,0000,0000,,Vite, que je rentre jouer !
+Dialogue: 0,0:06:27.15,0:06:30.32,Default,Yûsuke,0000,0000,0000,,Ah oui ! Je vais fermer à clé,\Ncomme je suis en charge…
+Dialogue: 0,0:06:32.32,0:06:33.08,Default,Yûsuke,0000,0000,0000,,Hein ?
+Dialogue: 0,0:06:33.70,0:06:35.04,Italique,Yûsuke,0000,0000,0000,,Elles étaient sorties ?
+Dialogue: 0,0:07:19.25,0:07:20.75,Default,Yûsuke,0000,0000,0000,,C’était quoi, ça ?
+Dialogue: 0,0:07:29.76,0:07:32.09,Default,Yûsuke,0000,0000,0000,,On peut m’expliquer, là ?
+Dialogue: 0,0:07:33.01,0:07:34.72,Default,Yûsuke,0000,0000,0000,,Oh, mon dieu !
+Dialogue: 0,0:07:35.22,0:07:36.10,Default,Shindô,0000,0000,0000,,Yotsuya !
+Dialogue: 0,0:07:37.68,0:07:39.85,Default,Shindô,0000,0000,0000,,Enfin ! Un garçon nous rejoint !
+Dialogue: 0,0:07:39.98,0:07:41.23,Italique,Yûsuke,0000,0000,0000,,Shindô ?
+Dialogue: 0,0:07:41.94,0:07:42.69,Italique,Yûsuke,0000,0000,0000,,Et…
+Dialogue: 0,0:07:45.90,0:07:47.11,Default,Kusue,0000,0000,0000,,Je suis Hakozaki.
+Dialogue: 0,0:07:49.61,0:07:50.94,Default,Yûsuke,0000,0000,0000,,Qu’est-ce qui se passe ?
+Dialogue: 0,0:07:51.24,0:07:53.20,Default,Yûsuke,0000,0000,0000,,Il m’arrive quoi, là ?
+Dialogue: 0,0:07:53.32,0:07:56.12,Default,Shindô,0000,0000,0000,,Un pervers avec une moitié\Nde visage va se montrer,
+Dialogue: 0,0:07:56.24,0:07:57.74,Default,Shindô,0000,0000,0000,,écoute-le sans paniquer.
+Dialogue: 0,0:07:58.83,0:08:01.91,Default,Maître du jeu,0000,0000,0000,,Enchanté. Bonjour.
+Dialogue: 0,0:08:05.08,0:08:07.79,Default,Maître du jeu,0000,0000,0000,,Je suis le Maître du jeu.
+Dialogue: 0,0:08:08.59,0:08:10.01,Default,Maître du jeu,0000,0000,0000,,Ravi de te rencontrer.
+Dialogue: 0,0:08:11.76,0:08:13.47,Default,Yûsuke,0000,0000,0000,,Sa tête ! Elle est tranchée !
+Dialogue: 0,0:08:14.01,0:08:16.60,Default,Maître du jeu,0000,0000,0000,,Je vais t’expliquer les règles.
+Dialogue: 0,0:08:16.72,0:08:17.39,Default,Yûsuke,0000,0000,0000,,Pardon ?
+Dialogue: 0,0:08:17.64,0:08:21.81,Default,Maître du jeu,0000,0000,0000,,Comme tu es nouveau,\Ntu vas recevoir les instructions.
+Dialogue: 0,0:08:22.35,0:08:25.27,Default,Maître du jeu,0000,0000,0000,,Vous devrez les suivre ensemble.
+Dialogue: 0,0:08:25.40,0:08:26.52,Default,Yûsuke,0000,0000,0000,,Hein ? Quoi ?
+Dialogue: 0,0:08:26.69,0:08:27.81,Default,Shindô,0000,0000,0000,,Écoute-le, Yotsuya.
+Dialogue: 0,0:08:28.02,0:08:30.11,Default,Maître du jeu,0000,0000,0000,,Voici la quête.
+Dialogue: 0,0:08:29.48,0:08:39.24,SignQuete,Sign,0000,0000,0000,,{\pos(323.697,218.091)}{\pos(323.697,218.091)}Accomplir la quête du chef du village.\N(Délai : 14 jours)
+Dialogue: 0,0:08:30.78,0:08:32.99,Default,Maître du jeu,0000,0000,0000,,Accomplissez la quête\Ndu chef du village.
+Dialogue: 0,0:08:33.11,0:08:35.32,Default,Maître du jeu,0000,0000,0000,,Vous avez quatorze jours.
+Dialogue: 0,0:08:35.45,0:08:37.16,Default,Yûsuke,0000,0000,0000,,Pars pas dans ton délire !
+Dialogue: 0,0:08:37.28,0:08:39.03,Default,Shindô,0000,0000,0000,,Je te dis de l’écouter !
+Dialogue: 0,0:08:39.37,0:08:41.79,Default,Maître du jeu,0000,0000,0000,,Ce monde regorge de monstres
+Dialogue: 0,0:08:41.91,0:08:44.71,Default,Maître du jeu,0000,0000,0000,,qui tenteront inlassablement\Nde vous tuer.
+Dialogue: 0,0:08:44.83,0:08:46.54,TiretsDefault,Yûsuke+Shindô,0226,0000,0000,,– Attends, bon sang !\N– Hé…
+Dialogue: 0,0:08:46.67,0:08:48.25,TiretsDefault,Yûsuke+Shindô,0273,0000,0000,,– Mais…\N– Tais-toi !
+Dialogue: 0,0:08:49.55,0:08:50.34,Default,Yûsuke,0000,0000,0000,,Hein ?
+Dialogue: 0,0:08:50.96,0:08:52.21,Default,Yûsuke,0000,0000,0000,,Ça fait pas mal…
+Dialogue: 0,0:08:52.51,0:08:55.97,SignQuete,Sign,0000,0000,0000,,{\pos(315.333,17)\bord5\3c&HFFF5EB&\fs20}LISTE DES QUÊTES
+Dialogue: 0,0:08:52.51,0:08:55.97,SignQuete,Sign,0000,0000,0000,,{\3c&HFFF5EB&\pos(315.333,50.333)}VAINCRE UN GOBELIN
+Dialogue: 0,0:08:52.51,0:08:55.97,SignQuete,Sign,0000,0000,0000,,{\pos(314.666,100.333)}DÉCOUVRIR DEUX VILLAGES
+Dialogue: 0,0:08:52.51,0:08:55.97,SignQuete,Sign,0000,0000,0000,,{\pos(318.667,150.333)}QUÊTE DU CHEF DE VILLAGE
+Dialogue: 0,0:08:52.67,0:08:55.97,Default,Maître du jeu,0000,0000,0000,,Encore huit manches\Npour voir la liste complète.
+Dialogue: 0,0:08:55.97,0:09:04.31,SignQuete,Sign,0000,0000,0000,,{\c&HE241E4&\fs16\pos(566,339)}UN PAR QUÊTE !
+Dialogue: 0,0:08:56.13,0:08:59.76,Default,Maître du jeu,0000,0000,0000,,Vous serez plus nombreux\Nà chaque tour.
+Dialogue: 0,0:08:59.93,0:09:03.02,Default,Maître du jeu,0000,0000,0000,,Vous serez dix\Npour terminer la partie.
+Dialogue: 0,0:09:04.39,0:09:06.52,Default,Yûsuke,0000,0000,0000,,De quoi ? Quelle partie ?
+Dialogue: 0,0:09:06.98,0:09:11.40,Default,Maître du jeu,0000,0000,0000,,Demande aux deux autres\Nce qu’est la récompense pour les quêtes.
+Dialogue: 0,0:09:12.32,0:09:13.69,Default,Maître du jeu,0000,0000,0000,,Iu Shindô.
+Dialogue: 0,0:09:15.90,0:09:17.99,Default,Maître du jeu,0000,0000,0000,,Magicienne du vent.
+Dialogue: 0,0:09:18.32,0:09:20.66,SignQuete,Sign,0000,0000,0000,,{\bord3\c&HFFF4D1&\3c&HDB5F41&\pos(434.667,92.334)}IU SHINDÔ\N\N\N\NMagicienne (Vent) Niveau 3\N\N\N\NEndurance > 83 %\NHaut du corps > 83 %\NBas du corps > 83 %\NMuscles involontaires > 83 %\NRésistance > 83 %\NMaîtrise la magie du vent
+Dialogue: 0,0:09:20.95,0:09:22.83,Default,Maître du jeu,0000,0000,0000,,Kusue Hakozaki.
+Dialogue: 0,0:09:23.83,0:09:25.37,Default,Maître du jeu,0000,0000,0000,,Guerrière bretteuse.
+Dialogue: 0,0:09:25.87,0:09:27.83,SignQuete,Sign,0000,0000,0000,,{\bord3\c&HFFF4D1&\3c&HDB5F41&\pos(218,126.334)}KUSUE HAKOZAKI\N\N\N\NGuerrière (Épée) Niveau 1\N\N\N\NEndurance > 220 %\NHaut du corps > 190 %\NBas du corps > 180 %\NMuscles involontaires > 170 %\NRésistance > 190 %
+Dialogue: 0,0:09:28.33,0:09:34.09,Default,Maître du jeu,0000,0000,0000,,À présent, décidons de la classe\Ndu 3e joueur, Yûsuke Yotsuya.
+Dialogue: 0,0:09:34.63,0:09:37.05,TiretsDefault,Maître du jeu,0216,0000,0000,,– Et ça tourne !\N– La fameuse roulette !
+Dialogue: 0,0:09:37.18,0:09:38.80,Default,Shindô,0000,0000,0000,,Un guerrier ! Pitié !
+Dialogue: 0,0:09:39.34,0:09:41.10,Italique,Yûsuke,0000,0000,0000,,Quoi ? C’est si capital ?
+Dialogue: 0,0:09:41.10,0:09:42.56,SignNote,Sign,0000,0000,0000,,{\bord0\c&H11090B&\pos(372,61.667)\fad(200,0)}GUERRIER (ÉPÉE)
+Dialogue: 0,0:09:41.10,0:09:42.56,SignNote,Sign,0000,0000,0000,,{\bord0\c&H11090B&\pos(174.667,250.333)\fad(200,0)}CHASSEUR
+Dialogue: 0,0:09:42.56,0:09:44.39,SignNote,Sign,0000,0000,0000,,{\bord0\c&H11090B&\\pos(264.667,93)}PAYSAN
+Dialogue: 0,0:09:43.14,0:09:44.39,Default,Maître du jeu,0000,0000,0000,,Paysan.
+Dialogue: 0,0:09:46.85,0:09:49.35,Default,Maître du jeu,0000,0000,0000,,À la revoyure.
+Dialogue: 0,0:09:52.48,0:09:53.65,SignQuete,Sign,0000,0000,0000,,{\bord3\c&HFFF4D1&\3c&HDB5F41&\pos(464,110.334)}YÛSUKE YOTSUYA\N\N\N\NPaysan Niveau 1\N\N\N\NEndurance > 150 %\NHaut du corps > 200 %\NBas du corps > 110 %\NMuscles involontaires > 120 %\NRésistance > 150 %\NPeut obtenir des connaissances\Nsur les plantes comestibles.
+Dialogue: 0,0:09:53.78,0:09:55.03,Default,Yûsuke,0000,0000,0000,,Euh, allô ?
+Dialogue: 0,0:09:55.15,0:09:56.07,Default,Kusue,0000,0000,0000,,Un paysan…
+Dialogue: 0,0:09:56.70,0:09:58.57,Default,Shindô,0000,0000,0000,,En plus, c’est super rare…
+Dialogue: 0,0:09:58.86,0:10:01.66,Default,Yûsuke,0000,0000,0000,,Vous allez m’expliquer, à la fin ?
+Dialogue: 0,0:10:01.99,0:10:07.00,SignQuete,Sign,0000,0000,0000,,{\an7\c&HC0C0C0&\3c&H444444&\bord3\pos(20.667,144.333)}HOUE{\fs12}\N\N\N\NClasse : Paysan niveau 1\NInstrument agricole : Valeur 2\NMatériaux : Fer, bois\NEffet : -50 % de résistance\Nsi utilisée sur autre chose\Nque des « plantes ».\NTemps de restauration : 5 jours
+Dialogue: 0,0:10:08.54,0:10:12.29,Default,Yûsuke,0000,0000,0000,,Vous avez aussi été téléportées ici\Nsans raison ?
+Dialogue: 0,0:10:12.50,0:10:13.75,Default,Shindô,0000,0000,0000,,J’étais la première.
+Dialogue: 0,0:10:14.21,0:10:17.97,Default,Shindô,0000,0000,0000,,J’ai réussi à accomplir ma quête\Net à rentrer dans notre monde,
+Dialogue: 0,0:10:18.30,0:10:21.18,Default,Shindô,0000,0000,0000,,quand j’ai de nouveau reçu\Nune quête du Maître.
+Dialogue: 0,0:10:21.39,0:10:24.22,Default,Yûsuke,0000,0000,0000,,On en reçoit même\Ndans notre monde ?
+Dialogue: 0,0:10:24.56,0:10:27.43,Default,Kusue,0000,0000,0000,,Alors, elle m’a abordée…
+Dialogue: 0,0:10:27.93,0:10:28.98,Italique,Shindô,0000,0000,0000,,Hakozaki !
+Dialogue: 0,0:10:33.90,0:10:35.94,Italique,Shindô,0000,0000,0000,,Tu veux bien être mon amie ?
+Dialogue: 0,0:10:38.07,0:10:38.95,Italique,Kusue,0000,0000,0000,,Pardon ?
+Dialogue: 0,0:10:40.66,0:10:41.87,Default,Yûsuke,0000,0000,0000,,Son amie ?
+Dialogue: 0,0:10:42.12,0:10:45.54,Default,Shindô,0000,0000,0000,,C’était la requête du Maître du jeu.
+Dialogue: 0,0:10:49.96,0:10:53.67,Default,Shindô,0000,0000,0000,,Et lors de ma deuxième invocation,\NKusue était avec moi.
+Dialogue: 0,0:10:59.88,0:11:01.34,Default,Shindô,0000,0000,0000,,Quand on est rentrées,
+Dialogue: 0,0:11:01.47,0:11:05.51,Default,Shindô,0000,0000,0000,,cette fois, il nous a demandé\Nde nous retrouver seules avec toi.
+Dialogue: 0,0:11:06.01,0:11:08.06,Default,Shindô,0000,0000,0000,,J’ai deviné que tu étais le suivant.
+Dialogue: 0,0:11:09.52,0:11:11.19,Italique,Yûsuke,0000,0000,0000,,Ceci explique cela.
+Dialogue: 0,0:11:11.90,0:11:16.94,Default,Shindô,0000,0000,0000,,Pour moi, c’était fastoche de te coincer\Ndans la classe le jour de ta corvée,
+Dialogue: 0,0:11:17.07,0:11:19.15,Default,Shindô,0000,0000,0000,,mais le prof t’est tombé dessus.
+Dialogue: 0,0:11:19.70,0:11:21.49,Default,Yûsuke,0000,0000,0000,,C’est pas ma faute !
+Dialogue: 0,0:11:22.24,0:11:23.66,Default,Shindô,0000,0000,0000,,J’ai un peu paniqué.
+Dialogue: 0,0:11:23.78,0:11:24.87,Default,Kusue,0000,0000,0000,,Moi aussi.
+Dialogue: 0,0:11:24.99,0:11:27.66,Default,Kusue,0000,0000,0000,,Heureusement,\Nle prof est parti avant lui.
+Dialogue: 0,0:11:28.16,0:11:31.79,Italique,Yûsuke,0000,0000,0000,,OK, c’est pas un rêve,\Nje m’en rends bien compte.
+Dialogue: 0,0:11:32.58,0:11:34.71,TiretsItalique,Shindô+Yûsuke,0200,0000,0000,,– T’as quoi, comme arme ?\N– Quelle arme ?
+Dialogue: 0,0:11:34.88,0:11:36.21,Italique,Shindô,0000,0000,0000,,Ferme les yeux.
+Dialogue: 0,0:11:38.00,0:11:40.76,SignQuete,Sign,0000,0000,0000,,{\c&HFFF4D1&\3c&HDB5F41&\bord3\pos(327.556,108.999)}HOUE{\fs12}\N\N\N\NInstrument agricole : Valeur 2\NMatériaux : Fer, bois\NEffet : -50 % de résistance\Nsi utilisée sur autre chose\Nque des « plantes ».\NTemps de restauration : 5 jours
+Dialogue: 0,0:11:39.26,0:11:40.38,Italique,Shindô,0000,0000,0000,,Essaie de toucher.
+Dialogue: 0,0:11:40.76,0:11:42.72,Italique,Shindô,0000,0000,0000,,Ça s’utilise comme un smartphone.
+Dialogue: 0,0:11:43.68,0:11:44.89,Italique,Yûsuke,0000,0000,0000,,Ça alors !
+Dialogue: 0,0:11:45.60,0:11:50.06,Italique,Shindô,0000,0000,0000,,Toutes les armes utilisables\Nse trouvent dans cette liste.
+Dialogue: 0,0:11:48.10,0:11:49.60,SignQuete,Sign,0000,0000,0000,,{\c&HFFF4D1&\3c&HDB5F41&\bord3\fs18\pos(328.667,81.666)}HOUE
+Dialogue: 0,0:11:49.70,0:11:50.18,SignQuete,Sign,0000,0000,0000,,{\c&HFFF4D1&\3c&HDB5F41&\bord3\fs18\pos(328.667,81.666)}FAUCILLE
+Dialogue: 0,0:11:52.23,0:11:52.85,Italique,Yûsuke,0000,0000,0000,,Génial !
+Dialogue: 0,0:11:53.69,0:11:54.60,Italique,Yûsuke,0000,0000,0000,,C’est minuscule !
+Dialogue: 0,0:11:56.15,0:11:57.69,Italique,Yûsuke,0000,0000,0000,,Une houe et une faucille…
+Dialogue: 0,0:11:57.94,0:11:59.74,Italique,Yûsuke,0000,0000,0000,,Parce que je suis un paysan ?
+Dialogue: 0,0:12:01.28,0:12:03.49,Italique,Yûsuke,0000,0000,0000,,C’est un monde virtuel ?
+Dialogue: 0,0:12:03.78,0:12:05.62,Italique,Yûsuke,0000,0000,0000,,Comme dans les jeux ?
+Dialogue: 0,0:12:06.87,0:12:07.87,Default,Yûsuke,0000,0000,0000,,C’est quoi ?
+Dialogue: 0,0:12:07.99,0:12:09.12,Default,Shindô,0000,0000,0000,,Le journal.
+Dialogue: 0,0:12:09.62,0:12:10.29,Default,Yûsuke,0000,0000,0000,,Le journal ?
+Dialogue: 0,0:12:10.41,0:12:13.67,Default,Shindô,0000,0000,0000,,Oui, il reste parfois des images\Nd’une scène passée.
+Dialogue: 0,0:12:14.04,0:12:15.29,Default,Shindô,0000,0000,0000,,Touche pour la voir.
+Dialogue: 0,0:12:20.96,0:12:21.88,Italique,Kusue,0000,0000,0000,,C’est impossible.
+Dialogue: 0,0:12:22.01,0:12:24.51,Italique,Kusue,0000,0000,0000,,Je ne peux pas me battre.
+Dialogue: 0,0:12:24.68,0:12:28.39,Italique,Shindô,0000,0000,0000,,Ne t’en fais pas.\NJ’ai réussi seule, la dernière fois.
+Dialogue: 0,0:12:28.64,0:12:30.56,Italique,Shindô,0000,0000,0000,,Allez, tenons bon, Kusue.
+Dialogue: 0,0:12:31.52,0:12:33.85,Default,Kusue,0000,0000,0000,,C’est quand je suis arrivée ici !
+Dialogue: 0,0:12:34.69,0:12:36.27,Default,Kusue,0000,0000,0000,,Ne regarde pas !
+Dialogue: 0,0:12:36.48,0:12:38.32,Default,Shindô,0000,0000,0000,,Malgré ce que je lui ai dit,
+Dialogue: 0,0:12:38.44,0:12:42.40,Default,Shindô,0000,0000,0000,,la première fois, j’ai paniqué\Net j’ai rien pu faire pendant un jour.
+Dialogue: 0,0:12:42.82,0:12:47.20,Default,Shindô,0000,0000,0000,,Et ensuite, j’ai compris que c’était\Nla réalité et je me suis décidée.
+Dialogue: 0,0:12:47.37,0:12:50.33,Default,Kusue,0000,0000,0000,,Euh, ton arrivée parmi nous…
+Dialogue: 0,0:12:50.62,0:12:52.70,Default,Kusue,0000,0000,0000,,est rassurante.
+Dialogue: 0,0:12:52.95,0:12:57.29,Default,Yûsuke,0000,0000,0000,,Pour faire court, il suffit d’accomplir\Nla quête pour rentrer chez nous ?
+Dialogue: 0,0:13:00.92,0:13:02.21,Italique,Yûsuke,0000,0000,0000,,Dans cette ville…
+Dialogue: 0,0:13:02.92,0:13:03.59,Default,Shindô,0000,0000,0000,,Les voilà !
+Dialogue: 0,0:13:04.93,0:13:05.76,Default,Shindô,0000,0000,0000,,Des gobelins.
+Dialogue: 0,0:13:05.88,0:13:06.76,Default,Yûsuke,0000,0000,0000,,Quoi ?
+Dialogue: 0,0:13:07.68,0:13:09.81,Italique,Yûsuke,0000,0000,0000,,Plus cliché, tu meurs.
+Dialogue: 0,0:13:10.72,0:13:14.39,Italique,Yûsuke,0000,0000,0000,,Même si j’y comprends rien,\Nj’accepte le défi !
+Dialogue: 0,0:13:15.23,0:13:18.40,Italique,Yûsuke,0000,0000,0000,,Mon aventure commence\Ndès cet instant !
+Dialogue: 0,0:13:19.48,0:13:20.82,Default,Yûsuke,0000,0000,0000,,Elle s’est cassée !
+Dialogue: 0,0:13:20.94,0:13:22.23,Default,Shindô,0000,0000,0000,,Il sert à rien !
+Dialogue: 0,0:13:22.94,0:13:26.15,Default,Yûsuke,0000,0000,0000,,Vous êtes magicienne et guerrière, non ?\NBattez-vous !
+Dialogue: 0,0:13:28.95,0:13:29.78,Default,Shindô,0000,0000,0000,,Wind !
+Dialogue: 0,0:13:33.62,0:13:34.50,Default,Yûsuke,0000,0000,0000,,C’est tout ?
+Dialogue: 0,0:13:34.79,0:13:37.42,Default,Shindô,0000,0000,0000,,La magie du vent\Nne fait qu’agiter l’air.
+Dialogue: 0,0:13:37.54,0:13:39.58,Default,Shindô,0000,0000,0000,,Et puis, mon niveau est faible…
+Dialogue: 0,0:13:39.71,0:13:40.67,Default,Yûsuke,0000,0000,0000,,L’excuse !
+Dialogue: 0,0:13:41.96,0:13:43.09,Default,Yûsuke,0000,0000,0000,,L’épée, alors !
+Dialogue: 0,0:13:44.09,0:13:45.51,TiretsDefault,Kusue+Yûsuke,0266,0000,0000,,– J’ai peur…\N– Sérieux ?
+Dialogue: 0,0:13:48.09,0:13:49.85,Default,Yûsuke,0000,0000,0000,,Ça s’utilise pas comme ça !
+Dialogue: 0,0:13:50.80,0:13:51.72,Italique,Yûsuke,0000,0000,0000,,Je sais !
+Dialogue: 0,0:13:52.43,0:13:53.18,Default,Yûsuke,0000,0000,0000,,Hein ?
+Dialogue: 0,0:13:53.81,0:13:54.77,Default,Shindô,0000,0000,0000,,C’est inutile.
+Dialogue: 0,0:13:54.89,0:13:57.94,Default,Shindô,0000,0000,0000,,Seul le propriétaire de l’arme\Npeut la tenir.
+Dialogue: 0,0:13:58.65,0:14:00.52,Default,Yûsuke,0000,0000,0000,,Vraiment comme dans un jeu.
+Dialogue: 0,0:14:00.90,0:14:01.69,Default,Yûsuke,0000,0000,0000,,Mais bon !
+Dialogue: 0,0:14:02.57,0:14:04.36,Default,Yûsuke,0000,0000,0000,,J’ai encore ma houe !
+Dialogue: 0,0:14:05.07,0:14:06.07,Default,Yûsuke,0000,0000,0000,,Elle aussi ?
+Dialogue: 0,0:14:10.74,0:14:12.58,Italique,Yûsuke,0000,0000,0000,,Hein ? Je rêve ?
+Dialogue: 0,0:14:12.99,0:14:16.33,Italique,Yûsuke,0000,0000,0000,,Je vais mourir comme ça ?
+Dialogue: 0,0:14:24.84,0:14:25.59,Italique,Yûsuke,0000,0000,0000,,C’est moi ?
+Dialogue: 0,0:14:28.47,0:14:29.55,Default,Yûsuke,0000,0000,0000,,Hakozaki !
+Dialogue: 0,0:14:33.64,0:14:34.64,Default,Yûsuke,0000,0000,0000,,Je fais quoi ?
+Dialogue: 0,0:14:40.44,0:14:41.73,Default,Yûsuke,0000,0000,0000,,J’ai ressuscité ?
+Dialogue: 0,0:14:41.94,0:14:44.65,Default,Shindô,0000,0000,0000,,On revient à la vie\Naprès 30 secondes.
+Dialogue: 0,0:14:44.90,0:14:47.32,Default,Yûsuke,0000,0000,0000,,T’aurais pu me prévenir !
+Dialogue: 0,0:14:47.78,0:14:50.61,Italique,Yûsuke,0000,0000,0000,,Bah, si on peut mourir,\Ny a moyen de s’en sortir.
+Dialogue: 0,0:14:51.24,0:14:52.12,Default,Yûsuke,0000,0000,0000,,Shindô !
+Dialogue: 0,0:14:52.91,0:14:54.08,Default,Yûsuke,0000,0000,0000,,Couvre-moi !
+Dialogue: 0,0:14:55.83,0:14:56.62,Default,Shindô,0000,0000,0000,,Wind !
+Dialogue: 0,0:14:59.92,0:15:01.29,TiretsDefault,Shindô+Yûsuke,0272,0000,0000,,– Yotsuya !\N– Je sais !
+Dialogue: 0,0:15:07.84,0:15:10.43,Default,Yûsuke,0000,0000,0000,,Faut juste jouer les kamikazes !
+Dialogue: 0,0:15:10.72,0:15:13.72,SignQuete,Sign,0000,0000,0000,,{\c&HFFF4D1&\3c&HDB5F41&\bord4\fs20\pos(199.333,103)}MORT
+Dialogue: 0,0:15:13.76,0:15:15.76,SignQuete,Sign,0000,0000,0000,,{\c&HFFF4D1&\3c&HDB5F41&\bord4\fs20\pos(198.666,215)}RÉSURRECTION
+Dialogue: 0,0:15:15.18,0:15:16.06,Default,Shindô,0000,0000,0000,,Bien joué.
+Dialogue: 0,0:15:19.27,0:15:21.48,Default,Kusue,0000,0000,0000,,Son plan a bien marché.
+Dialogue: 0,0:15:21.60,0:15:24.44,Default,Shindô,0000,0000,0000,,Oui, j’ai révisé mon opinion,\Nmême si c’était naze.
+Dialogue: 0,0:15:24.56,0:15:27.36,Default,Yûsuke,0000,0000,0000,,Compliment ou insulte,\Ndécide-toi…
+Dialogue: 0,0:15:28.11,0:15:31.49,Default,Yûsuke,0000,0000,0000,,Je capte pas comment\Nvous vous en êtes sorties jusqu’ici.
+Dialogue: 0,0:15:31.70,0:15:33.91,Default,Shindô,0000,0000,0000,,Eh bien, t’as pas tort…
+Dialogue: 0,0:15:34.62,0:15:39.98,SignNote,Sign,0000,0000,15,,{\bord0\fs30\fad(0,1500)}QUÊTE 1\N« VAINCRE UN GOBELIN »
+Dialogue: 0,0:15:39.41,0:15:40.75,Default,Shindô,0000,0000,0000,,La première fois…
+Dialogue: 0,0:15:41.25,0:15:44.76,SignNote,Sign,0000,0000,15,,{\bord0\fs30\fad(0,1500)}QUÊTE 2\N« DÉCOUVRIR DEUX VILLAGES »
+Dialogue: 0,0:15:41.37,0:15:42.71,Default,Shindô,0000,0000,0000,,Et la deuxième,
+Dialogue: 0,0:15:42.92,0:15:47.00,Default,Shindô,0000,0000,0000,,un petit effort suffisait,\Ntant que l’une de nous survivait.
+Dialogue: 0,0:15:47.13,0:15:48.17,Italique,Shindô,0000,0000,0000,,Réveille-toi !
+Dialogue: 0,0:15:49.26,0:15:51.59,Default,Yûsuke,0000,0000,0000,,Il arrive quoi, si on meurt tous ?
+Dialogue: 0,0:15:51.80,0:15:54.01,Default,Shindô,0000,0000,0000,,Hein ? Je te l’ai pas dit ?
+Dialogue: 0,0:15:54.51,0:15:57.22,Default,Shindô,0000,0000,0000,,Si l’équipe est décimée,\Nla mort est définitive.
+Dialogue: 0,0:15:59.14,0:16:01.69,Default,Yûsuke,0000,0000,0000,,Une mort définitive ?
+Dialogue: 0,0:16:07.73,0:16:11.24,Default,Yûsuke,0000,0000,0000,,Les endroits déjà visités\Nsont cartographiés.
+Dialogue: 0,0:16:11.57,0:16:12.20,Default,Shindô,0000,0000,0000,,Oui.
+Dialogue: 0,0:16:13.15,0:16:15.66,Default,Shindô,0000,0000,0000,,Demain,\Non va au village de l’ouest ?
+Dialogue: 0,0:16:15.82,0:16:16.78,Default,Shindô,0000,0000,0000,,Il est proche.
+Dialogue: 0,0:16:16.91,0:16:19.29,Default,Kusue,0000,0000,0000,,J’espère que la quête sera facile.
+Dialogue: 0,0:16:18.28,0:16:22.41,SignQuete,Sign,0000,0000,0000,,{\c&HFFF4D1&\3c&HDB5F41&\bord3\pos(321.334,76.333)}HOUE CASSÉE{\fs12}\N\N\N\N5 JOURS AVANT RÉGÉNÉRATION
+Dialogue: 0,0:16:19.41,0:16:22.21,Italique,Yûsuke,0000,0000,0000,,Ça met cinq jours à se réparer…
+Dialogue: 0,0:16:24.46,0:16:27.50,Default,Yûsuke,0000,0000,0000,,Et c’est quoi,\Ncette histoire de récompense ?
+Dialogue: 0,0:16:27.75,0:16:29.84,Default,Yûsuke,0000,0000,0000,,Le type a dit de vous demander.
+Dialogue: 0,0:16:30.21,0:16:33.51,Default,Shindô,0000,0000,0000,,Le Maître nous donne le droit\Nde lui poser une seule question.
+Dialogue: 0,0:16:33.63,0:16:34.80,Default,Yûsuke,0000,0000,0000,,Quel radin !
+Dialogue: 0,0:16:35.01,0:16:38.64,Default,Shindô,0000,0000,0000,,La première fois, j’ai demandé\Npourquoi il m’avait choisie…
+Dialogue: 0,0:16:39.39,0:16:43.85,Italique,Maître du jeu,0000,0000,0000,,Une de vos connaissances\Nme l’a demandé.
+Dialogue: 0,0:16:44.35,0:16:45.56,Default,Kusue,0000,0000,0000,,La deuxième fois,
+Dialogue: 0,0:16:45.94,0:16:49.44,Default,Kusue,0000,0000,0000,,on a demandé qui ils étaient.
+Dialogue: 0,0:16:50.11,0:16:52.40,Italique,Maître du jeu,0000,0000,0000,,Des voyageurs du futur.
+Dialogue: 0,0:16:53.70,0:16:58.95,Default,Yûsuke,0000,0000,0000,,Des voyageurs du futur…\Net une certaine connaissance, hein ?
+Dialogue: 0,0:17:00.54,0:17:02.45,Default,Yûsuke,0000,0000,0000,,Sur ces bonnes paroles,
+Dialogue: 0,0:17:03.08,0:17:04.96,Default,Yûsuke,0000,0000,0000,,je prends le premier tour de garde.
+Dialogue: 0,0:17:05.79,0:17:06.58,Default,Shindô,0000,0000,0000,,OK.
+Dialogue: 0,0:17:07.75,0:17:10.59,Italique,Yûsuke,0000,0000,0000,,Qu’est-ce que je pourrais\Nlui demander ?
+Dialogue: 0,0:17:18.97,0:17:21.93,Italique,Yûsuke,0000,0000,0000,,Si l’équipe est décimée,\Nla mort est définitive…
+Dialogue: 0,0:17:23.02,0:17:26.19,Italique,Yûsuke,0000,0000,0000,,Est-ce que ça veut dire qu’on meurt\Ndans le monde réel ?
+Dialogue: 0,0:17:27.31,0:17:31.11,Italique,Yûsuke,0000,0000,0000,,Je sais pas trop,\Nmais on va éviter d’en arriver là.
+Dialogue: 0,0:17:31.86,0:17:32.73,Default,Shindô,0000,0000,0000,,Yotsuya !
+Dialogue: 0,0:17:33.69,0:17:35.61,Default,Shindô,0000,0000,0000,,Yotsuya ! Yotsuya !
+Dialogue: 0,0:17:35.78,0:17:36.65,Default,Yûsuke,0000,0000,0000,,Shindô ?
+Dialogue: 0,0:17:41.08,0:17:41.91,Default,Kusue,0000,0000,0000,,Yo…
+Dialogue: 0,0:17:42.29,0:17:44.50,Default,Kusue,0000,0000,0000,,Yotsuya…
+Dialogue: 0,0:17:44.91,0:17:47.08,Default,Yûsuke,0000,0000,0000,,Hakozaki ! Qu’est-ce qui se passe ?
+Dialogue: 0,0:18:05.10,0:18:05.81,Default,Shindô,0000,0000,0000,,Yotsuya !
+Dialogue: 0,0:18:06.18,0:18:07.64,Default,Shindô,0000,0000,0000,,Fuis ! On peut pas gagner !
+Dialogue: 0,0:18:12.40,0:18:13.61,Italique,Yûsuke,0000,0000,0000,,Il l’a bouffée…
+Dialogue: 0,0:18:20.32,0:18:22.03,Italique,Yûsuke,0000,0000,0000,,Si je meurs, c’est fini…
+Dialogue: 0,0:18:25.04,0:18:27.12,Italique,Yûsuke,0000,0000,0000,,Hakozaki revient dans 30 secondes !
+Dialogue: 0,0:18:27.71,0:18:28.71,Default,Yûsuke,0000,0000,0000,,Shindô !
+Dialogue: 0,0:18:28.83,0:18:29.87,Italique,Yûsuke,0000,0000,0000,,Elle m’entend ?
+Dialogue: 0,0:18:30.08,0:18:31.63,Default,Yûsuke,0000,0000,0000,,On va au village !
+Dialogue: 0,0:18:33.42,0:18:35.13,Italique,Yûsuke,0000,0000,0000,,Une arme en bois servira à rien.
+Dialogue: 0,0:18:35.26,0:18:38.13,Italique,Yûsuke,0000,0000,0000,,On doit à tout prix éviter\Nde combattre ce monstre !
+Dialogue: 0,0:18:46.64,0:18:48.77,Default,Yûsuke,0000,0000,0000,,Ta main gauche se régénère pas ?
+Dialogue: 0,0:18:49.06,0:18:52.31,Default,Kusue,0000,0000,0000,,Je crois que\Nc’est parce qu’elle a été mangée.
+Dialogue: 0,0:18:52.52,0:18:55.86,Default,Yûsuke,0000,0000,0000,,Mais alors,\NShindô n’a pas ressuscité non plus…
+Dialogue: 0,0:18:57.11,0:19:00.45,Italique,Yûsuke,0000,0000,0000,,Donc, si on meurt tous les deux,\Nce sera fini.
+Dialogue: 0,0:19:01.07,0:19:03.16,SignQuete,Sign,0000,0000,0000,,{\bord3\c&HFFF4D1&\3c&HDB5F41&\pos(327.333,107.001)}YÛSUKE YOTSUYA\N\N\N\NPaysan Niveau 4\N\N\N\NEndurance > 154 %\NHaut du corps > 200 %\NBas du corps > 204 %\NMuscles involontaires > 114 %\NRésistance > 154 %\NPeut obtenir des connaissances\Nsur les plantes comestibles.
+Dialogue: 0,0:19:01.20,0:19:03.12,Italique,Yûsuke,0000,0000,0000,,J’ai aucune capacité d’attaque.
+Dialogue: 0,0:19:03.37,0:19:05.79,Italique,Yûsuke,0000,0000,0000,,Et Hakozaki est juste inoffensive.
+Dialogue: 0,0:19:03.66,0:19:06.16,SignQuete,Sign,0000,0000,0000,,{\bord3\c&HFFF4D1&\3c&HDB5F41&\pos(321.333,109.001)}KUSUE HAKOZAKI\N\N\N\NGuerrière (Épée) Niveau 1\N\N\N\NEndurance > 220 %\NHaut du corps > 190 %\NBas du corps > 180 %\NMuscles involontaires > 170 %\NRésistance > 190 %
+Dialogue: 0,0:19:06.41,0:19:07.33,Italique,Yûsuke,0000,0000,0000,,C’est fichu.
+Dialogue: 0,0:19:07.54,0:19:11.88,Italique,Yûsuke,0000,0000,0000,,On est obligés d’ignorer le géant\Net de mener la quête sans Shindô.
+Dialogue: 0,0:19:14.88,0:19:17.76,Default,villageois,0000,0000,0000,,Ce sont les héros ! Ils sont là !
+Dialogue: 0,0:19:18.88,0:19:20.26,Default,Yûsuke,0000,0000,0000,,Les héros ?
+Dialogue: 0,0:19:20.43,0:19:24.10,Default,Kusue,0000,0000,0000,,C’est comme ça qu’on nous appelle\Ndans ce monde, apparemment.
+Dialogue: 0,0:19:24.85,0:19:26.22,Default,Yûsuke,0000,0000,0000,,Comme dans les jeux…
+Dialogue: 0,0:19:26.56,0:19:28.18,Default,enfant,0000,0000,0000,,Ce sont les héros !
+Dialogue: 0,0:19:28.31,0:19:29.31,Default,enfant,0000,0000,0000,,M. le héros !
+Dialogue: 0,0:19:29.43,0:19:31.02,Default,enfant,0000,0000,0000,,Je m’appelle Cicas !
+Dialogue: 0,0:19:31.14,0:19:32.48,Default,Yûsuke,0000,0000,0000,,Salut.
+Dialogue: 0,0:19:32.60,0:19:34.73,Default,enfant,0000,0000,0000,,Les héros sont trop cool !
+Dialogue: 0,0:19:35.11,0:19:36.73,Italique,Yûsuke,0000,0000,0000,,Sauf que je suis un paysan.
+Dialogue: 0,0:19:37.32,0:19:40.57,Default,enfant,0000,0000,0000,,Je veux devenir aussi fort que vous !
+Dialogue: 0,0:19:41.91,0:19:43.74,Italique,Yûsuke,0000,0000,0000,,On en a une qui s’est fait bouffer…
+Dialogue: 0,0:19:44.12,0:19:45.70,Default,chef du village,0000,0000,0000,,Je suis le chef du village.
+Dialogue: 0,0:19:46.24,0:19:47.20,Default,Yûsuke,0000,0000,0000,,Bonjour.
+Dialogue: 0,0:19:47.58,0:19:50.21,Default,Yûsuke,0000,0000,0000,,J’ai cru comprendre\Nque vous aviez une requête.
+Dialogue: 0,0:19:50.33,0:19:55.13,Default,chef du village,0000,0000,0000,,Il se trouve qu’un monstre appelé troll\Nest apparu près du village.
+Dialogue: 0,0:19:55.25,0:19:58.05,Italique,Yûsuke,0000,0000,0000,,Minute !\NMe dites pas que c’est ce monstre !
+Dialogue: 0,0:19:58.21,0:19:59.42,Default,chef du village,0000,0000,0000,,Il ressemble à ça.
+Dialogue: 0,0:19:59.55,0:20:02.59,Default,chef du village,0000,0000,0000,,Tuez-le pour sauver le village !
+Dialogue: 0,0:20:03.05,0:20:04.34,Italique,Yûsuke,0000,0000,0000,,C’est mort.
+Dialogue: 0,0:20:06.55,0:20:07.68,Default,Yûsuke,0000,0000,0000,,Dis…
+Dialogue: 0,0:20:07.93,0:20:10.48,Default,Yûsuke,0000,0000,0000,,t’as jamais pu vaincre de gobelin,\Nc’est ça ?
+Dialogue: 0,0:20:10.89,0:20:11.73,Default,Kusue,0000,0000,0000,,Bah…
+Dialogue: 0,0:20:11.89,0:20:14.85,Default,Kusue,0000,0000,0000,,Non, j’ai du mal à les toucher\Navec mon épée.
+Dialogue: 0,0:20:15.15,0:20:17.57,Italique,Yûsuke,0000,0000,0000,,Faut dire que tu la lançais…
+Dialogue: 0,0:20:18.15,0:20:22.53,Default,Kusue,0000,0000,0000,,Iu est dans l’estomac du troll,\Nje pense qu’elle ne peut pas revenir.
+Dialogue: 0,0:20:22.90,0:20:25.37,Default,Kusue,0000,0000,0000,,Il faut trouver\Nun moyen de la sauver.
+Dialogue: 0,0:20:28.12,0:20:29.62,Italique,Yûsuke,0000,0000,0000,,Elle sert à que dalle.
+Dialogue: 0,0:20:29.87,0:20:32.58,Italique,Yûsuke,0000,0000,0000,,Pourquoi c’est pas Shindô\Nqui a survécu ?
+Dialogue: 0,0:20:33.71,0:20:35.63,Default,Kusue,0000,0000,0000,,Euh… Yotsuya ?
+Dialogue: 0,0:20:36.33,0:20:38.42,Default,Yûsuke,0000,0000,0000,,Reste au village.
+Dialogue: 0,0:20:40.96,0:20:43.38,Default,Yûsuke,0000,0000,0000,,Je vais monter mon niveau.
+Dialogue: 0,0:20:44.88,0:20:45.72,Default,Kusue,0000,0000,0000,,Attends !
+Dialogue: 0,0:20:49.10,0:20:51.89,Default,Kusue,0000,0000,0000,,Je veux aussi aider Iu !
+Dialogue: 0,0:20:52.27,0:20:53.43,Default,Yûsuke,0000,0000,0000,,Désolé,
+Dialogue: 0,0:20:54.64,0:20:56.85,Default,Yûsuke,0000,0000,0000,,mais si tu meurs…
+Dialogue: 0,0:20:59.57,0:21:01.15,Default,Yûsuke,0000,0000,0000,,c’est moi qui serai ennuyé.
+Dialogue: 0,0:21:04.45,0:21:05.53,Italique,Yûsuke,0000,0000,0000,,Oui ! Vas-y, mec !
+Dialogue: 0,0:21:05.82,0:21:07.70,Italique,Yûsuke,0000,0000,0000,,Fonce, allez !
+Dialogue: 0,0:21:07.95,0:21:09.33,Italique,Yûsuke,0000,0000,0000,,Tu m’échapperas pas !
+Dialogue: 0,0:21:10.37,0:21:13.16,Italique,Yûsuke,0000,0000,0000,,Crève ! Crève ! Crève !
+Dialogue: 0,0:21:13.29,0:21:15.96,Italique,Yûsuke,0000,0000,0000,,Meurs ! Allez ! Meurs !
+Dialogue: 0,0:21:16.08,0:21:19.25,Italique,Yûsuke,0000,0000,0000,,Tu vas crever, oui ? Crève !
+Dialogue: 0,0:21:21.96,0:21:24.34,Italique,Yûsuke,0000,0000,0000,,Ouais !
+Dialogue: 0,0:21:27.64,0:21:29.85,Italique,Yûsuke,0000,0000,0000,,Même si je suis en danger de mort,
+Dialogue: 0,0:21:30.35,0:21:34.27,Italique,Yûsuke,0000,0000,0000,,cet endroit est bien plus excitant\Nque cette saloperie de Tokyo.
+Dialogue: 0,0:21:35.02,0:21:40.02,Titre,Sign,0000,0000,0000,,INDIGNE D’ÊTRE UN HÉROS
+Dialogue: 0,0:23:09.99,0:23:12.16,Default,Maître du jeu,0000,0000,0000,,La quête secondaire du jour.
+Dialogue: 0,0:23:14.16,0:23:15.08,SignNote,Sign,0000,0000,0000,,{\fs15\pos(255.333,133.667)\bord0\c&H301117&}LANCE-TOI DANS LA POSTSYNCHRONISATION
+Dialogue: 0,0:23:15.08,0:23:21.62,SignNote,Sign,0000,0000,0000,,{\fs12\c&H10140E&\pos(502.667,224.333)\3c&HF7F7F7&}SHINDÔ S’ESSAIE\NÀ LA POSTSYNCHRONISATION !
+Dialogue: 0,0:23:15.33,0:23:16.45,Default,Shindô,0000,0000,0000,,Je suis le chef du village.
+Dialogue: 0,0:23:16.58,0:23:17.79,Default,Yûsuke,0000,0000,0000,,Tu es douée, Shindô !
+Dialogue: 0,0:23:18.08,0:23:22.29,Default,Shindô,0000,0000,0000,,Il se trouve qu’un monstre appelé troll\Nest apparu près du village.
+Dialogue: 0,0:23:22.42,0:23:25.21,Default,Shindô,0000,0000,0000,,Tuez-le pour sauver le village !
+Dialogue: 0,0:23:25.63,0:23:28.59,Default,Maître du jeu,0000,0000,0000,,Au tour de Yûsuke Yotsuya.
+Dialogue: 0,0:23:28.76,0:23:31.51,Default,Yûsuke,0000,0000,0000,,Je dois aussi doubler le chef ?\NC’est du réchauffé.
+Dialogue: 0,0:23:31.51,0:23:32.93,SignNote,Sign,0000,0000,0000,,{\fs12\c&H10140E&\pos(502.667,224.333)\3c&HF7F7F7&}YOTSUYA S’ESSAIE\NÀ LA POSTSYNCHRONISATION !
+Dialogue: 0,0:23:31.84,0:23:32.89,Default,Yûsuke,0000,0000,0000,,Hakozaki !
+Dialogue: 0,0:23:33.22,0:23:35.39,Default,Yûsuke,0000,0000,0000,,Tu veux bien être mon amie ?
+Dialogue: 0,0:23:36.18,0:23:37.72,Default,Maître du jeu,0000,0000,0000,,Répugnant. Disqualifié.
+Dialogue: 0,0:23:37.85,0:23:39.73,Default,Yûsuke,0000,0000,0000,,Qu’est-ce que je peux y faire ?

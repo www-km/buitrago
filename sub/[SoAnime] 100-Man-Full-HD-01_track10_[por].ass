@@ -1,0 +1,471 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Main,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: Italics,Trebuchet MS,22,&H00FFFFFF,&H000E00AB,&H10000000,&HC0000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: Top,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0040,0040,0015,1
+Style: Flashback,Trebuchet MS,22,&H00FFFFFF,&H000E00AB,&H10500000,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: Black Signs,Arial,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,1
+Style: White Signs,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,1
+Style: Lousa1,Arial,20,&H008E9183,&H000000FF,&H00302D1B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,1
+Style: sign_12209_115_Hora_da_miss__o_,Comic Sans MS,19,&H00D24CC4,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,12.32,1,0,0,2,0491,0081,0046,1
+Style: Lista,Arial,17,&H00000000,&H000000FF,&H00FFF5EB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0040,0040,0015,1
+Style: sign_12768_122_Quest_Completion,Trebuchet MS,20,&H001B140E,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0185,0185,0025,1
+Style: sign_13387_134_Shindou_Yuu,Trebuchet MS,14,&H00FFFDD8,&H000000FF,&H00E5D79A,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,5,0010,0010,0000,1
+Style: sign_13933_150_Warrior__Sword__,Trebuchet MS,24,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0380,0058,0204,1
+Style: sign_17730_223_Hakozaki_Kusue,Trebuchet MS,16,&H003F4055,&H000000FF,&H00FFECFE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0069,0451,0125,1
+Style: sign_17730_224_This_is_impossib,Trebuchet MS,22,&H28E6FCFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,0360,0005,0000,1
+Style: EpNumber,Times New Roman,20,&H00F9F9F9,&H000000FF,&H00F9F9F9,&H00000000,-1,0,0,0,100,100,1,0,3,0,0,8,0010,0010,0115,1
+Style: Ep_Title,Times New Roman,28,&H00000000,&H000000FF,&H00F9F9F9,&H00000000,-1,0,0,0,100,100,1,0,3,1,0,2,0010,0010,0070,1
+Style: sign_33456_418_Chief,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00454545,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,5,0039,0455,0000,1
+Style: sign_33449_419_Shindou_Attempti,Trebuchet MS,16,&H002D2D2D,&H000000FF,&H00FFF4F8,&H00000000,0,0,0,0,100,100,0,13,1,2,0,1,0402,0020,0096,1
+Style: Sign,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:19.01,0:00:21.00,Italics,Yotsuya,0000,0000,0000,,Eu gosto de ficar sozinho.
+Dialogue: 0,0:00:25.16,0:00:27.67,Italics,Yotsuya,0000,0000,0000,,Odeio aquela cidade.
+Dialogue: 0,0:00:32.87,0:00:36.31,Italics,Yotsuya,0000,0000,0000,,Odeio todos que vivem naquela cidade.
+Dialogue: 0,0:00:50.66,0:00:53.37,Italics,Yotsuya,0000,0000,0000,,Mesmo que minha vida corra perigo...
+Dialogue: 0,0:00:53.37,0:00:57.60,Italics,Yotsuya,0000,0000,0000,,este lugar me empolga milhões de vezes\Nmais que aquela merda de Tóquio!
+Dialogue: 0,0:02:38.42,0:02:38.51,Main,SIGN,0000,0000,0000,,{\pos(356,288.667)\c&H949E9A&\3c&HFEFEFD&\shad0\fs20\frx18\fry6\frz344.1}Aproxime o cartão
+Dialogue: 0,0:02:39.84,0:02:40.63,Main,SIGN,0000,0000,0000,,{\pos(356,288.667)\c&H949E9A&\3c&HFEFEFD&\shad0\fs20\frx18\fry6\frz344.1}Aproxime o cartão
+Dialogue: 0,0:02:51.73,0:02:53.94,Main,Guy,0000,0000,0000,,Educação física na\Nprimeira aula é de matar.
+Dialogue: 0,0:02:53.94,0:02:55.41,Main,Guy,0000,0000,0000,,Sim, verdade.
+Dialogue: 0,0:02:55.41,0:02:57.40,Main,Girl,0000,0000,0000,,Assisti ao Mico ao vivo ontem...
+Dialogue: 0,0:02:57.40,0:02:59.25,Main,Girl,0000,0000,0000,,Caramba, eu acabei dormindo.
+Dialogue: 0,0:02:59.25,0:03:00.87,Main,Girl,0000,0000,0000,,Sério? Não foi cedo demais?
+Dialogue: 0,0:03:01.68,0:03:02.96,Main,Teacher,0000,0000,0000,,Nomura Yuuta.
+Dialogue: 0,0:03:02.96,0:03:03.72,Main,Nomura,0000,0000,0000,,Presente.
+Dialogue: 0,0:03:03.72,0:03:05.35,Main,Teacher,0000,0000,0000,,Hakozaki Kusue...
+Dialogue: 0,0:03:05.78,0:03:09.07,Main,Teacher,0000,0000,0000,,Ah, ela está doente e faltou.
+Dialogue: 0,0:03:09.33,0:03:12.09,Main,Guy,0000,0000,0000,,A Hakozaki vive faltando...
+Dialogue: 0,0:03:10.25,0:03:11.67,Top,Teacher,0000,0000,0000,,Yumiya Youhei.
+Dialogue: 0,0:03:11.67,0:03:12.24,Top,Yumiya,0000,0000,0000,,Presente.
+Dialogue: 0,0:03:12.24,0:03:14.29,Main,Girl,0000,0000,0000,,Parece que ela tem saúde fraca.
+Dialogue: 0,0:03:13.17,0:03:14.29,Top,Teacher,0000,0000,0000,,Yuura Yuki.
+Dialogue: 0,0:03:14.29,0:03:15.06,Top,Yuura,0000,0000,0000,,Presente.
+Dialogue: 0,0:03:14.29,0:03:16.10,Main,Girl,0000,0000,0000,,Sempre falta na educação física.
+Dialogue: 0,0:03:15.46,0:03:16.74,Top,Teacher,0000,0000,0000,,Morita Takeshi.
+Dialogue: 0,0:03:16.10,0:03:18.62,Main,Girl,0000,0000,0000,,Ei, ouviu sobre o Nakata-kun, da turma 1?
+Dialogue: 0,0:03:16.74,0:03:17.50,Top,Morita,0000,0000,0000,,Presente.
+Dialogue: 0,0:03:18.08,0:03:19.25,Top,Teacher,0000,0000,0000,,Morinaga Maiko.
+Dialogue: 0,0:03:18.62,0:03:20.37,Main,Girl,0000,0000,0000,,Ele se declarou pra Shindou-san.
+Dialogue: 0,0:03:19.25,0:03:20.13,Top,Mori,0000,0000,0000,,Presente.
+Dialogue: 0,0:03:20.37,0:03:21.24,Main,Guy,0000,0000,0000,,Sério?!
+Dialogue: 0,0:03:21.24,0:03:22.14,Main,Girl,0000,0000,0000,,Ele é louco?
+Dialogue: 0,0:03:22.14,0:03:23.44,Main,Guy,0000,0000,0000,,Aquele maldito!
+Dialogue: 0,0:03:23.44,0:03:27.27,Main,Teacher,0000,0000,0000,,Quem não entregou o formulário de planos\Nde carreira, entregue até amanhã.
+Dialogue: 0,0:03:27.70,0:03:29.03,Main,Guy,0000,0000,0000,,Vamos ao karaokê?
+Dialogue: 0,0:03:32.85,0:03:34.12,Main,Guy,0000,0000,0000,,Veja, é este.
+Dialogue: 0,0:03:34.12,0:03:35.76,Main,Guy,0000,0000,0000,,Hã? É a Shindou-san.
+Dialogue: 0,0:03:36.02,0:03:39.86,Main,Guy,0000,0000,0000,,Então é verdade que um olheiro a chamou\Npra ser modelo amador na Petit Lemon.
+Dialogue: 0,0:03:37.06,0:03:39.25,Top,Girl,0000,0000,0000,,Shindou-san, boa sorte!
+Dialogue: 0,0:03:40.20,0:03:42.36,Main,Guy,0000,0000,0000,,Ela é bonita, tem notas boas...
+Dialogue: 0,0:03:44.62,0:03:45.81,Main,Guy,0000,0000,0000,,Ela é perfeita.
+Dialogue: 0,0:03:57.54,0:03:58.41,Main,Toki,0000,0000,0000,,Opa!
+Dialogue: 0,0:04:00.68,0:04:02.58,Main,Toki,0000,0000,0000,,Ah, não foi nada.
+Dialogue: 0,0:04:03.15,0:04:06.07,Main,Toki,0000,0000,0000,,Sabe, fazer vídeos externos é estranho.
+Dialogue: 0,0:04:03.18,0:04:05.14,White Signs,SIGN,0000,0000,0000,,{\fad(396,396)}Tudo bem aí?  ???
+Dialogue: 0,0:04:06.07,0:04:07.54,Main,Toki,0000,0000,0000,,Não fico à vontade.
+Dialogue: 0,0:04:06.97,0:04:08.68,White Signs,SIGN,0000,0000,0000,,{\fad(360,391)}Admiro essa coragem
+Dialogue: 0,0:04:13.44,0:04:15.90,Main,Yotsuya,0000,0000,0000,,Isso, vai, vai, vai!
+Dialogue: 0,0:04:15.90,0:04:17.69,Main,Yotsuya,0000,0000,0000,,Consegui!!
+Dialogue: 0,0:04:18.30,0:04:21.14,Main,Yotsuya,0000,0000,0000,,Ufa, foi por pouco!
+Dialogue: 0,0:04:41.80,0:04:43.63,Lousa1,Text,0000,0000,0000,,Deveres diários:\NYotsuya Yuusuke
+Dialogue: 0,0:04:45.72,0:04:46.94,Main,Girl,0000,0000,0000,,Shindou-san!
+Dialogue: 0,0:04:46.94,0:04:48.66,Main,Shindou,0000,0000,0000,,Sim, até depois.
+Dialogue: 0,0:04:51.00,0:04:52.22,Main,Yotsuya,0000,0000,0000,,É isto?
+Dialogue: 0,0:04:58.44,0:05:00.31,Main,Yotsuya,0000,0000,0000,,A Shindou-san é incrível.
+Dialogue: 0,0:05:00.31,0:05:02.39,Main,Yotsuya,0000,0000,0000,,Bom, ela é linda.
+Dialogue: 0,0:05:03.54,0:05:07.20,Italics,Yotsuya,0000,0000,0000,,O mundo em que vivemos é tão diferente\Nque nem tenho opinião.
+Dialogue: 0,0:05:07.85,0:05:09.17,Main,Shindou,0000,0000,0000,,É hoje, né?
+Dialogue: 0,0:05:09.17,0:05:09.73,Main,Hako,0000,0000,0000,,Sim.
+Dialogue: 0,0:05:10.26,0:05:12.59,Main,Shindou,0000,0000,0000,,Tô meio nervosa.
+Dialogue: 0,0:05:12.59,0:05:14.11,Main,Hako,0000,0000,0000,,Eu também.
+Dialogue: 0,0:05:14.11,0:05:16.03,Italics,Yotsuya,0000,0000,0000,,A que sempre falta na educação física.
+Dialogue: 0,0:05:16.46,0:05:19.23,Italics,Yotsuya,0000,0000,0000,,Aquelas duas já se davam tão bem?
+Dialogue: 0,0:05:21.58,0:05:24.10,Italics,Yotsuya,0000,0000,0000,,O-O que foi aquilo?
+Dialogue: 0,0:05:27.19,0:05:31.69,Main,Teacher,0000,0000,0000,,Só você não entregou\Num plano de carreira, Yotsuya.
+Dialogue: 0,0:05:33.16,0:05:36.06,Main,Teacher,0000,0000,0000,,Você corre bem...\NSe focar no atletismo, faz o ensino médio
+Dialogue: 0,0:05:36.06,0:05:38.07,Main,Teacher,0000,0000,0000,,numa escola voltada a isso.
+Dialogue: 0,0:05:38.07,0:05:39.14,Main,Yotsuya,0000,0000,0000,,Sei...
+Dialogue: 0,0:05:46.23,0:05:48.07,Italics,Yotsuya,0000,0000,0000,,Aquelas duas, de novo?
+Dialogue: 0,0:05:48.07,0:05:50.93,Italics,Yotsuya,0000,0000,0000,,É uma dupla estranha de ver junta.
+Dialogue: 0,0:05:50.93,0:05:53.54,Main,Teacher,0000,0000,0000,,Não tem mesmo nada que queira fazer?
+Dialogue: 0,0:05:54.17,0:05:56.91,Italics,Yotsuya,0000,0000,0000,,Quero voltar logo pra casa\Ne continuar meu jogo.
+Dialogue: 0,0:05:57.60,0:06:00.19,Main,Yotsuya,0000,0000,0000,,Pensei muito nisso,\Nmas não encontrei nada.
+Dialogue: 0,0:06:00.19,0:06:02.68,Italics,Yotsuya,0000,0000,0000,,Não tenho interesse nesta escola.
+Dialogue: 0,0:06:02.96,0:06:06.08,Main,Teacher,0000,0000,0000,,Você nunca diz o que\Nrealmente quer falar, hein?
+Dialogue: 0,0:06:06.09,0:06:10.51,Lousa1,Text,0000,0000,0000,,Yuusuke
+Dialogue: 0,0:06:06.59,0:06:10.50,Main,Teacher,0000,0000,0000,,Não vai se dar bem no ensino médio\Nse não tiver amigos com quem se abrir.
+Dialogue: 0,0:06:10.50,0:06:13.43,Italics,Yotsuya,0000,0000,0000,,Caramba, ele sabe?\NFiquei impressionado.
+Dialogue: 0,0:06:13.89,0:06:16.20,Main,Yotsuya,0000,0000,0000,,Bom, é verdade...
+Dialogue: 0,0:06:16.20,0:06:19.94,Main,Yotsuya,0000,0000,0000,,Vou procurar uma escola de nível comum\Ne colocar como primeira escolha.
+Dialogue: 0,0:06:19.94,0:06:22.01,Main,Teacher,0000,0000,0000,,Seja como for, não deixe\Nde entregar amanhã.
+Dialogue: 0,0:06:22.01,0:06:22.87,Main,Yotsuya,0000,0000,0000,,Está bem.
+Dialogue: 0,0:06:24.61,0:06:26.95,Italics,Yotsuya,0000,0000,0000,,Quero voltar pra casa e jogar.
+Dialogue: 0,0:06:26.95,0:06:30.43,Main,Yotsuya,0000,0000,0000,,Ah, já vou trancar, estou fazendo\Nos deveres diários e...
+Dialogue: 0,0:06:32.21,0:06:33.20,Main,Yotsuya,0000,0000,0000,,Ué?
+Dialogue: 0,0:06:33.58,0:06:35.07,Italics,Yotsuya,0000,0000,0000,,Quando elas saíram?
+Dialogue: 0,0:06:58.44,0:06:59.34,Main,Yotsuya,0000,0000,0000,,Hã?
+Dialogue: 0,0:07:18.76,0:07:21.05,Main,Yotsuya,0000,0000,0000,,O-O que foi isso?!
+Dialogue: 0,0:07:29.54,0:07:32.39,Main,Yotsuya,0000,0000,0000,,Que raios é isto?!
+Dialogue: 0,0:07:33.34,0:07:35.08,Main,Yotsuya,0000,0000,0000,,Droga! O que tá havendo?!
+Dialogue: 0,0:07:35.08,0:07:36.10,Main,Shindou,0000,0000,0000,,Yotsuya-kun!
+Dialogue: 0,0:07:37.52,0:07:39.96,Main,Shindou,0000,0000,0000,,Legal, finalmente temos um garoto!
+Dialogue: 0,0:07:39.96,0:07:41.31,Main,Yotsuya,0000,0000,0000,,Shindou-san?!
+Dialogue: 0,0:07:41.83,0:07:44.17,Main,Yotsuya,0000,0000,0000,,E... ela é a...
+Dialogue: 0,0:07:45.67,0:07:47.29,Main,Hako,0000,0000,0000,,Me chamo Hakozaki.
+Dialogue: 0,0:07:49.47,0:07:51.25,Main,Yotsuya,0000,0000,0000,,O que é isto?
+Dialogue: 0,0:07:51.25,0:07:53.11,Main,Yotsuya,0000,0000,0000,,O que tá acontecendo? O que é isso?!
+Dialogue: 0,0:07:53.11,0:07:56.20,Main,Shindou,0000,0000,0000,,Olha, agora vai aparecer um\Nesquisitão com metade da cara.
+Dialogue: 0,0:07:56.20,0:07:57.76,Main,Shindou,0000,0000,0000,,Não entre em pânico, ouça tudo.
+Dialogue: 0,0:07:57.76,0:07:58.64,Main,Yotsuya,0000,0000,0000,,Hã?
+Dialogue: 0,0:07:58.64,0:08:02.07,Main,GM,0000,0000,0000,,Muito pra. Boa tar.
+Dialogue: 0,0:08:04.95,0:08:07.97,Main,GM,0000,0000,0000,,Me chame de Game Master, por fa.
+Dialogue: 0,0:08:08.53,0:08:09.97,Main,GM,0000,0000,0000,,Fico feliz em te conhe.
+Dialogue: 0,0:08:11.55,0:08:13.46,Main,Yotsuya,0000,0000,0000,,A cabeça dele! A cabeça!
+Dialogue: 0,0:08:13.78,0:08:16.76,Main,GM,0000,0000,0000,,Explicarei as regras, antes de mais na.
+Dialogue: 0,0:08:16.76,0:08:17.49,Main,Yotsuya,0000,0000,0000,,Hã?
+Dialogue: 0,0:08:17.49,0:08:22.10,Main,GM,0000,0000,0000,,Novato, essas instruções são para vo.
+Dialogue: 0,0:08:22.10,0:08:25.38,Main,GM,0000,0000,0000,,Completem a tarefa, todos jun.
+Dialogue: 0,0:08:25.38,0:08:26.82,Main,Yotsuya,0000,0000,0000,,Ei, espera um pouco!
+Dialogue: 0,0:08:26.82,0:08:27.81,Main,Shindou,0000,0000,0000,,Escute, Yotsuya-kun.
+Dialogue: 0,0:08:27.81,0:08:30.03,Main,GM,0000,0000,0000,,Sua missão é a seguin.
+Dialogue: 0,0:08:29.19,0:08:39.24,Black Signs,Text,0000,0000,0000,,{\fad(319,1)}Missão\NCumpra o pedido do líder da vila.\N(Tempo limite: 14 dias)
+Dialogue: 0,0:08:29.19,0:08:39.24,sign_12209_115_Hora_da_miss__o_,SIGN,0000,0000,0000,,{\fad(319,1)}Hora da\Nmissão!
+Dialogue: 0,0:08:30.55,0:08:35.55,Main,GM,0000,0000,0000,,Em no máximo 14 dias, devem\Nrealizar o pedido do líder da vi.
+Dialogue: 0,0:08:35.55,0:08:37.35,Main,Yotsuya,0000,0000,0000,,Não vá avançando a conversa!
+Dialogue: 0,0:08:37.32,0:08:39.24,Main,Shindou,0000,0000,0000,,Já disse, ouça tudo!
+Dialogue: 0,0:08:39.24,0:08:44.95,Main,GM,0000,0000,0000,,Os monstros deste mundo estão prontos\Ne ansiosos para matar todos vo.
+Dialogue: 0,0:08:44.95,0:08:45.89,Main,Yotsuya,0000,0000,0000,,Espere um pouco!
+Dialogue: 0,0:08:45.89,0:08:46.73,Main,Shindou,0000,0000,0000,,Eu já falei...
+Dialogue: 0,0:08:46.73,0:08:47.37,Main,Yotsuya,0000,0000,0000,,Mas é que—
+Dialogue: 0,0:08:47.37,0:08:48.24,Main,Shindou,0000,0000,0000,,Quieto!
+Dialogue: 0,0:08:49.33,0:08:52.50,Main,Yotsuya,0000,0000,0000,,Ué? Não doeu.
+Dialogue: 0,0:08:52.50,0:08:55.96,Main,GM,0000,0000,0000,,Faltam oito passos para\Ncompletarem a mi.
+Dialogue: 0,0:08:52.51,0:08:55.97,sign_12768_122_Quest_Completion,SIGN,0000,0000,0000,,Estratégia para as missões
+Dialogue: 0,0:08:52.51,0:08:55.97,sign_12768_122_Quest_Completion,SIGN,0000,0000,0000,,{\pos(320,82)\fs14}Derrotar 1 goblin
+Dialogue: 0,0:08:52.51,0:08:55.97,sign_12768_122_Quest_Completion,SIGN,0000,0000,0000,,{\pos(320,132)\fs14}Descobrir 2 assentamentos
+Dialogue: 0,0:08:52.51,0:08:55.97,sign_12768_122_Quest_Completion,SIGN,0000,0000,0000,,{\pos(320,182)\fs14}Cumprir o pedido do líder da vila
+Dialogue: 0,0:08:55.96,0:08:59.78,Main,GM,0000,0000,0000,,Ao cumprir cada passo, um novo\Nintegrante se juntará ao gru.
+Dialogue: 0,0:08:55.97,0:09:04.31,sign_12209_115_Hora_da_miss__o_,SIGN,0000,0000,0000,,{\pos(612,274)}Hora da\Nmissão
+Dialogue: 0,0:08:59.78,0:09:03.16,Main,GM,0000,0000,0000,,No final, a missão será cumprida\Ncom dez integran!
+Dialogue: 0,0:09:04.31,0:09:06.79,Main,Yotsuya,0000,0000,0000,,Estratégia? Cumprir?
+Dialogue: 0,0:09:06.79,0:09:11.47,Main,GM,0000,0000,0000,,Para saber sobre as recompensas que ganham\Na cada passo, pergunte às suas companhei.
+Dialogue: 0,0:09:12.05,0:09:13.66,Main,GM,0000,0000,0000,,Shindou Yuu.
+Dialogue: 0,0:09:15.75,0:09:18.21,Main,GM,0000,0000,0000,,Maga (Vento).
+Dialogue: 0,0:09:18.20,0:09:20.66,Sign,SIGN,0000,0000,0000,,{\fad(191,1)\p1\bord0\shad0\an5\pos(382,216)\c&HD87B57&}m 0 0 l 106 0 l 106 118 l 0 118
+Dialogue: 0,0:09:18.20,0:09:20.66,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(191,1)\pos(440,115)\blur2}Shindou Yuu
+Dialogue: 0,0:09:18.20,0:09:20.66,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(191,1)\pos(440,148)\q2\blur2}Maga (Vento)                Rank 3\h\h\h\h\h\h\h
+Dialogue: 0,0:09:18.20,0:09:20.66,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(191,1)\an6\q2\pos(432.666,215.333)\blur2}Vida > 83%\N\NCorpo (sup)  > 83%\NCorpo (inf)  > 83%\NMúsculo\h\h\h\h\h\h\h\h\h\h\h\NInvoluntário\h\h> 83%\NForça\h\h> 83%
+Dialogue: 0,0:09:18.20,0:09:20.66,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(191,1)\blur2\q2\fs12\an4\pos(454,205)\fscx90}Usa magia de vento.
+Dialogue: 0,0:09:18.20,0:09:20.66,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(191,1)\pos(448,268)\q2\an4\fs12\blur2}Vento 30 x 120%
+Dialogue: 0,0:09:20.66,0:09:22.86,Main,GM,0000,0000,0000,,Hakozaki Kusue.
+Dialogue: 0,0:09:23.53,0:09:25.39,Main,GM,0000,0000,0000,,Guerreira (Espada).
+Dialogue: 0,0:09:25.66,0:09:27.83,Sign,SIGN,0000,0000,0000,,{\fad(238,1)\p1\bord0\shad0\an5\c&HD78458&\pos(161,234.667)}m 0 0 l 114 0 l 114 110 l 0 110
+Dialogue: 0,0:09:25.66,0:09:27.83,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(238,1)\pos(220,140)\blur2}Hakozaki Kusue
+Dialogue: 0,0:09:25.66,0:09:27.83,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(238,1)\pos(220,171)\blur2}Guerreira (Espada)          Rank 1\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:09:25.66,0:09:27.83,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(236,1)\an6\blur2\pos(215,235)}Vida > 220%\N\NCorpo (sup) > 190%\NCorpo (inf) > 180%\NMúsculo\h\h\h\h\h\h\h\h\h\h\h\h\h\NInvoluntário\h\h> 170%\NForça\h\h> 190%
+Dialogue: 0,0:09:28.16,0:09:34.33,Main,GM,0000,0000,0000,,E o terceiro jogador, Yotsuya Yuusuke,\Nqual será sua ocupa?
+Dialogue: 0,0:09:35.42,0:09:37.17,Italics,Yotsuya,0000,0000,0000,,É aquilo que sempre vejo na TV!
+Dialogue: 0,0:09:37.17,0:09:38.81,Main,Shindou,0000,0000,0000,,Seja um guerreiro! Guerreiro!
+Dialogue: 0,0:09:38.81,0:09:41.11,Main,Yotsuya,0000,0000,0000,,Quê? Isso é tão importante?
+Dialogue: 0,0:09:41.10,0:09:42.56,sign_13933_150_Warrior__Sword__,SIGN,0000,0000,0000,,{\be1\fad(481,1)}Guerreiro (Espada)
+Dialogue: 0,0:09:41.10,0:09:42.56,sign_13933_150_Warrior__Sword__,SIGN,0000,0000,0000,,{\fad(481,1)\pos(270,268)\be.5\frz60.69}Aldeão
+Dialogue: 0,0:09:42.56,0:09:44.39,sign_13933_150_Warrior__Sword__,SIGN,0000,0000,0000,,{\fs27\fnArial\be.5\frz40.71\pos(374,244)}Fazendeiro
+Dialogue: 0,0:09:42.96,0:09:44.39,Main,GM,0000,0000,0000,,Fazendei.
+Dialogue: 0,0:09:45.27,0:09:46.81,Main,Yotsuya,0000,0000,0000,,Hã? Quê?!
+Dialogue: 0,0:09:46.81,0:09:49.53,Main,GM,0000,0000,0000,,Muito bem, até a próxi!
+Dialogue: 0,0:09:52.23,0:09:53.65,Sign,SIGN,0000,0000,0000,,{\fad(236,1)\p1\bord0\shad0\an5\c&HCCA06A&\pos(406,233)}m 0 0 l 114 0 l 114 110 l 0 110
+Dialogue: 0,0:09:52.23,0:09:53.65,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(236,1)\pos(464,135)\c&HFEFEF8&\blur1}Yotsuya Yuusuke
+Dialogue: 0,0:09:52.23,0:09:53.65,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(236,1)\pos(464,165)\c&HFEFEF8&\blur1}\h\h\h\h\hFazendeiro               Rank 1\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:09:52.23,0:09:53.65,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(236,1)\an6\pos(460,231)}Vida > 150%\N\NCorpo (sup) > 200%\NCorpo (inf) > 110%\NMúsculo\h\h\h\h\h\h\h\h\h\h\h\h\NInvoluntário\h> 120%\NForça\h\h> 150%
+Dialogue: 0,0:09:52.23,0:09:53.65,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(236,1)\fs10\c&HFEFEF8&\blur2\pos(529,260)}Pode aprender sobre\Nplantas comestíveis.
+Dialogue: 0,0:09:53.65,0:09:55.15,Main,Yotsuya,0000,0000,0000,,Então...
+Dialogue: 0,0:09:55.15,0:09:56.14,Main,Hako,0000,0000,0000,,Um fazendeiro...
+Dialogue: 0,0:09:56.58,0:09:58.57,Main,Shindou,0000,0000,0000,,Tem coisa que não devia ser super rara.
+Dialogue: 0,0:09:58.57,0:10:01.98,Main,Yotsuya,0000,0000,0000,,Afinal, alguém pode\Nme explicar tudo isso?!
+Dialogue: 0,0:10:01.99,0:10:07.00,Main,Text,0000,0000,0000,,{\p1\bord0\shad0\c&H444444&\an4\pos(322.666,171)\clip(m 320 88 l 442 88 442 200 580 200 582 253 345 252 345 130 321 130)}m 0 0 l 255 0 l 255 168 l 0 168
+Dialogue: 0,0:10:01.99,0:10:07.00,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\an4\fs24\bord0\c&HFFFFFF&\fscx90\pos(332,102)}[Enxada]
+Dialogue: 0,0:10:01.99,0:10:07.00,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\an4\fs12\bord0\c&HFFFFFF&\pos(346,141)\fscx75}Ocup.: Fazendeiro Nv. 1
+Dialogue: 0,0:10:01.99,0:10:07.00,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\an4\fs12\bord0\c&HFFFFFF&\fscx66\pos(346,164)}Ferram. de Cultivo: Rank 2
+Dialogue: 0,0:10:01.99,0:10:07.00,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\an4\fs12\bord0\c&HFFFFFF&\fscx78\pos(346,186)}Material: Ferro, madeira
+Dialogue: 0,0:10:01.99,0:10:07.00,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\an4\fs12\bord0\c&HFFFFFF&\fscx75\pos(346,214)}Efeitos: -50% de força ao atacar qualquer coisa que\N\h\h\h\h\h\h\h\h\h\h\h\h\h\hnão seja "planta"
+Dialogue: 0,0:10:01.99,0:10:07.00,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\an4\fs12\bord0\c&HFFFFFF&\fscx90\pos(346,241)}Regeneração: 5 dias
+Dialogue: 0,0:10:08.38,0:10:12.30,Main,Yotsuya,0000,0000,0000,,Vocês duas também foram\Ntrazidas pra cá de repente?
+Dialogue: 0,0:10:12.30,0:10:14.01,Main,Shindou,0000,0000,0000,,Eu fui a primeira.
+Dialogue: 0,0:10:14.01,0:10:18.13,Main,Shindou,0000,0000,0000,,Consegui completar a primeira missão\Ne voltar pro nosso mundo,
+Dialogue: 0,0:10:18.13,0:10:21.31,Main,Shindou,0000,0000,0000,,então o Game Master me instruiu\Na fazer outra missão.
+Dialogue: 0,0:10:21.31,0:10:24.23,Main,Yotsuya,0000,0000,0000,,Recebeu missão mesmo depois\Nde voltar pra casa?
+Dialogue: 0,0:10:24.50,0:10:27.69,Main,Hako,0000,0000,0000,,Foi quando a Shindou-san\Nveio até a mim...
+Dialogue: 0,0:10:27.69,0:10:29.01,Flashback,Shindou,0000,0000,0000,,Hakozaki-san!
+Dialogue: 0,0:10:33.69,0:10:35.94,Flashback,Shindou,0000,0000,0000,,Poderia ser minha amiga?
+Dialogue: 0,0:10:37.90,0:10:39.04,Flashback,Hako,0000,0000,0000,,Hein?
+Dialogue: 0,0:10:40.35,0:10:41.95,Main,Yotsuya,0000,0000,0000,,Sua amiga?
+Dialogue: 0,0:10:41.95,0:10:45.53,Main,Shindou,0000,0000,0000,,O Game Master me instruiu\Na ser amiga da Kusue.
+Dialogue: 0,0:10:49.80,0:10:52.60,Main,Shindou,0000,0000,0000,,Então, na vez seguinte\Nque vim a este mundo,
+Dialogue: 0,0:10:52.60,0:10:53.67,Main,Shindou,0000,0000,0000,,Kusue estava aqui.
+Dialogue: 0,0:10:59.70,0:11:01.40,Main,Shindou,0000,0000,0000,,Quando voltamos pra casa,
+Dialogue: 0,0:11:01.40,0:11:05.52,Main,Shindou,0000,0000,0000,,dessa vez ele nos instruiu\Na ficar sozinhas com você.
+Dialogue: 0,0:11:05.94,0:11:08.05,Main,Shindou,0000,0000,0000,,Imaginei que você seria o próximo.
+Dialogue: 0,0:11:09.51,0:11:11.19,Italics,Yotsuya,0000,0000,0000,,Então é isso.
+Dialogue: 0,0:11:11.73,0:11:16.97,Main,Shindou,0000,0000,0000,,Achei que seria fácil, no seu dia de deveres\Nficaria pra trancar a sala, mas...
+Dialogue: 0,0:11:16.97,0:11:19.15,Main,Shindou,0000,0000,0000,,Você ficou levando sermão do professor.
+Dialogue: 0,0:11:19.15,0:11:21.56,Main,Yotsuya,0000,0000,0000,,O-O que eu podia fazer?
+Dialogue: 0,0:11:22.08,0:11:23.70,Main,Shindou,0000,0000,0000,,Eu fiquei bem preocupada.
+Dialogue: 0,0:11:23.70,0:11:27.67,Main,Hako,0000,0000,0000,,Eu também. Fiquei aliviada quando\No professor finalmente foi embora.
+Dialogue: 0,0:11:28.03,0:11:31.82,Italics,Yotsuya,0000,0000,0000,,Bom, tá claro que isto não é um sonho.
+Dialogue: 0,0:11:32.49,0:11:33.85,Main,Shindou,0000,0000,0000,,Que armas você tem?
+Dialogue: 0,0:11:33.85,0:11:34.70,Main,Yotsuya,0000,0000,0000,,Armas?
+Dialogue: 0,0:11:34.70,0:11:36.25,Main,Shindou,0000,0000,0000,,Tente apertar os olhos!
+Dialogue: 0,0:11:37.59,0:11:40.76,Sign,SIGN,0000,0000,0000,,{\fad(315,1)\fad(236,1)\p1\bord0\shad0\an5\c&HCB8740&\pos(325,246)}m 0 0 l 172 0 l 172 84 l 0 84
+Dialogue: 0,0:11:37.59,0:11:40.76,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(315,1)\pos(326,110)\blur2}Enxada
+Dialogue: 0,0:11:37.59,0:11:40.76,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(315,1)\an4\pos(233,250)\fs12\blur2}Ferramenta de Cultivo:  Rank 2\NMaterial:  Ferro, madeira\NEfeitos:{\fscx80}  -50% de força ao atacar qualquer\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hcoisa que não seja "planta"\N{\fscx80}Regeneração:   5 dias
+Dialogue: 0,0:11:37.97,0:11:39.17,Main,Yotsuya,0000,0000,0000,,Oh!
+Dialogue: 0,0:11:39.17,0:11:40.76,Main,Shindou,0000,0000,0000,,Tente tocá-las.
+Dialogue: 0,0:11:40.76,0:11:42.85,Main,Shindou,0000,0000,0000,,Pode controlar como num smartphone.
+Dialogue: 0,0:11:42.85,0:11:45.19,Main,Yotsuya,0000,0000,0000,,Oh... Oh! Oh!
+Dialogue: 0,0:11:45.50,0:11:50.07,Main,Shindou,0000,0000,0000,,As únicas coisas que pode usar\Ncomo arma são isso que está vendo.
+Dialogue: 0,0:11:47.85,0:11:49.81,Sign,SIGN,0000,0000,0000,,{\fad(274,268)\p1\bord0\shad0\an5\c&HCB8740&\pos(325,246)}m 0 0 l 172 0 l 172 84 l 0 84
+Dialogue: 0,0:11:47.85,0:11:49.81,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(274,268)\pos(326,110)\blur2}Enxada
+Dialogue: 0,0:11:47.85,0:11:49.81,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(274,268)\an4\pos(233,250)\fs12\blur2}Ferramenta de Cultivo:  Rank 2\NMaterial:  Ferro, madeira\NEfeitos:{\fscx80}  -50% de força ao atacar qualquer\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hcoisa que não seja "planta"\N{\fscx80}Regeneração:   5 dias
+Dialogue: 0,0:11:49.56,0:11:50.85,Sign,SIGN,0000,0000,0000,,{\fad(274,307)\fad(236,1)\p1\bord0\shad0\an5\c&HCB8740&\pos(325,246)\t(692,732,1 \c&HFCF37B&)\t(1025,1150,1 \c&HCB8740&)}m 0 0 l 172 0 l 172 84 l 0 84
+Dialogue: 0,0:11:49.56,0:11:50.85,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(274,307)\pos(326,110)\blur2\t(692,732,1 \3c&HFFFFFF\c&HFFFFFF)}Foice
+Dialogue: 0,0:11:49.56,0:11:50.85,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(274,307)\an4\pos(233,250)\fs12\blur2\t(692,732,1 \3c&HFFFFFF\c&HFFFFFF)}Ferramenta de Cultivo:  Rank 1\NMaterial:  Ferro, madeira\NEfeitos:{\fscx80}  -50% de força ao atacar qualquer\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hcoisa que não seja "planta"\N{\fscx80}Regeneração:   5 dias
+Dialogue: 0,0:11:52.00,0:11:52.84,Main,Yotsuya,0000,0000,0000,,Apareceu!
+Dialogue: 0,0:11:53.54,0:11:54.70,Main,Yotsuya,0000,0000,0000,,Que minúscula!
+Dialogue: 0,0:11:56.07,0:11:57.78,Italics,Yotsuya,0000,0000,0000,,Uma enxada e uma foice...
+Dialogue: 0,0:11:57.78,0:11:59.74,Italics,Yotsuya,0000,0000,0000,,Ah, é porque sou um fazendeiro.
+Dialogue: 0,0:12:01.16,0:12:03.64,Italics,Yotsuya,0000,0000,0000,,Isto é um espaço virtual?
+Dialogue: 0,0:12:03.64,0:12:05.64,Italics,Yotsuya,0000,0000,0000,,Como o mundo dentro de um jogo?
+Dialogue: 0,0:12:06.57,0:12:07.97,Main,Yotsuya,0000,0000,0000,,O que é aquilo?
+Dialogue: 0,0:12:07.97,0:12:09.12,Main,Shindou,0000,0000,0000,,É um ponto de registro.
+Dialogue: 0,0:12:09.47,0:12:10.40,Main,Yotsuya,0000,0000,0000,,Registro?
+Dialogue: 0,0:12:10.40,0:12:14.03,Main,Shindou,0000,0000,0000,,Sim. Às vezes eles gravam cenas\Nde eventos anteriores.
+Dialogue: 0,0:12:14.03,0:12:15.37,Main,Shindou,0000,0000,0000,,Pode ver se tocar nele.
+Dialogue: 0,0:12:19.46,0:12:24.64,sign_17730_223_Hakozaki_Kusue,SIGN,0000,0000,0000,,{\fad(1029,1)}Hakozaki Kusue
+Dialogue: 0,0:12:19.46,0:12:24.64,sign_17730_224_This_is_impossib,SIGN/Hako,0000,0000,0000,,{\fad(1029,1)\pos(360,300)}N-Não dá.\N{\fscx90}Não sou capaz de lutar...
+Dialogue: 0,0:12:20.89,0:12:24.64,Flashback,Text/Hako,0000,0000,0000,,{\an8}N-Não dá.\NNão sou capaz de lutar...
+Dialogue: 0,0:12:24.64,0:12:28.38,Flashback,Text/Shindou,0000,0000,0000,,{\an8}Você vai ficar bem, eu dei um jeito,\Nmesmo sozinha.
+Dialogue: 0,0:12:24.64,0:12:28.64,sign_17730_224_This_is_impossib,SIGN/Shindou,0000,0000,0000,,{\q2\pos(95,305)\fscx95}Você vai ficar bem, eu dei um jeito, mesmo sozinha.
+Dialogue: 0,0:12:24.64,0:12:31.18,sign_17730_223_Hakozaki_Kusue,SIGN,0000,0000,0000,,{\3c&HD6EEF6&}Shindou Yuu
+Dialogue: 0,0:12:28.64,0:12:30.57,Flashback,Text/Shindou,0000,0000,0000,,{\an8}Tá? Vamos tentar, Kusue.
+Dialogue: 0,0:12:28.64,0:12:31.18,sign_17730_224_This_is_impossib,SIGN/Shindou,0000,0000,0000,,{\pos(95,305)\q2}Tá? Vamos tentar, Kusue.
+Dialogue: 0,0:12:31.42,0:12:33.84,Main,Hako,0000,0000,0000,,Isso foi logo que eu vim para cá!
+Dialogue: 0,0:12:33.84,0:12:36.27,Main,Hako,0000,0000,0000,,N-Não olhe, por favor!
+Dialogue: 0,0:12:36.27,0:12:38.38,Main,Shindou,0000,0000,0000,,Eu disse aquilo pra Kusue,
+Dialogue: 0,0:12:38.38,0:12:42.64,Main,Shindou,0000,0000,0000,,mas no começo fiquei em pânico,\Nnão consegui fazer nada um dia inteiro.
+Dialogue: 0,0:12:42.64,0:12:45.64,Main,Shindou,0000,0000,0000,,Quando finalmente\Npercebi que isto era real,
+Dialogue: 0,0:12:45.64,0:12:47.21,Main,Shindou,0000,0000,0000,,acho que aceitei a situação.
+Dialogue: 0,0:12:47.21,0:12:52.86,Main,Hako,0000,0000,0000,,Eu... me sinto mais tranquila\Npor ter você aqui, Yotsuya-kun.
+Dialogue: 0,0:12:52.86,0:12:55.32,Main,Yotsuya,0000,0000,0000,,Basicamente, basta\Ncompletarmos as missões
+Dialogue: 0,0:12:55.32,0:12:57.28,Main,Yotsuya,0000,0000,0000,,e voltaremos pro lugar de onde viemos?
+Dialogue: 0,0:13:00.85,0:13:02.28,Italics,Yotsuya,0000,0000,0000,,Voltar àquela cidade?
+Dialogue: 0,0:13:02.77,0:13:03.52,Main,Shindou,0000,0000,0000,,Lá estão eles!
+Dialogue: 0,0:13:03.52,0:13:04.18,Main,Yotsuya,0000,0000,0000,,Hã?
+Dialogue: 0,0:13:04.67,0:13:05.72,Main,Shindou,0000,0000,0000,,São goblins.
+Dialogue: 0,0:13:05.72,0:13:06.79,Main,Yotsuya,0000,0000,0000,,Goblin?
+Dialogue: 0,0:13:07.48,0:13:09.91,Italics,Yotsuya,0000,0000,0000,,Nem tem como confundir.
+Dialogue: 0,0:13:10.55,0:13:14.39,Italics,Yotsuya,0000,0000,0000,,Mesmo que eu não esteja satisfeito\Ncom a situação, tudo bem, aceito!
+Dialogue: 0,0:13:14.97,0:13:18.68,Main,Yotsuya,0000,0000,0000,,Minha aventura começa agora!
+Dialogue: 0,0:13:19.42,0:13:20.80,Main,Yotsuya,0000,0000,0000,,Hã? Quebrou?!
+Dialogue: 0,0:13:20.80,0:13:22.23,Main,Shindou,0000,0000,0000,,Que inútil!
+Dialogue: 0,0:13:22.23,0:13:25.18,Main,Yotsuya,0000,0000,0000,,V-Vocês são uma maga e\Numa guerreira, certo?
+Dialogue: 0,0:13:25.18,0:13:26.66,Main,Yotsuya,0000,0000,0000,,Não fiquem só olhando!
+Dialogue: 0,0:13:28.68,0:13:29.90,Main,Shindou,0000,0000,0000,,Vento!
+Dialogue: 0,0:13:33.48,0:13:34.51,Main,Yotsuya,0000,0000,0000,,É isso?
+Dialogue: 0,0:13:34.51,0:13:37.46,Main,Shindou,0000,0000,0000,,A magia do vento apenas move o ar.
+Dialogue: 0,0:13:37.46,0:13:39.76,Main,Shindou,0000,0000,0000,,Meu nível é baixo,\Nisso é tudo o que consigo.
+Dialogue: 0,0:13:39.76,0:13:40.66,Main,Yotsuya,0000,0000,0000,,Que raios é isso?!
+Dialogue: 0,0:13:41.86,0:13:43.08,Main,Yotsuya,0000,0000,0000,,Mas, com uma espada...
+Dialogue: 0,0:13:43.32,0:13:44.75,Main,Hako,0000,0000,0000,,Q-Que medo!
+Dialogue: 0,0:13:44.75,0:13:45.51,Main,Yotsuya,0000,0000,0000,,Ei, ei...
+Dialogue: 0,0:13:47.91,0:13:49.86,Main,Yotsuya,0000,0000,0000,,Não é assim que se usa!
+Dialogue: 0,0:13:50.80,0:13:51.71,Italics,Yotsuya,0000,0000,0000,,Já sei!
+Dialogue: 0,0:13:52.35,0:13:53.60,Main,Yotsuya,0000,0000,0000,,Ué?
+Dialogue: 0,0:13:53.60,0:13:54.86,Main,Shindou,0000,0000,0000,,Não adianta.
+Dialogue: 0,0:13:54.86,0:13:58.15,Main,Shindou,0000,0000,0000,,Armas só podem ser seguradas\Npor quem elas são atribuídas.
+Dialogue: 0,0:13:58.58,0:14:00.53,Main,Yotsuya,0000,0000,0000,,Isso parece cada vez mais com um jogo.
+Dialogue: 0,0:14:00.53,0:14:01.90,Main,Yotsuya,0000,0000,0000,,Mas...
+Dialogue: 0,0:14:02.45,0:14:04.36,Main,Yotsuya,0000,0000,0000,,Ainda tenho a enxada!
+Dialogue: 0,0:14:04.89,0:14:06.28,Main,Yotsuya,0000,0000,0000,,Quebrou?!
+Dialogue: 0,0:14:10.65,0:14:12.78,Main,Yotsuya,0000,0000,0000,,Hã? Sério?
+Dialogue: 0,0:14:12.78,0:14:16.42,Main,Yotsuya,0000,0000,0000,,Eu... vou... morrer?
+Dialogue: 0,0:14:24.70,0:14:25.63,Main,Yotsuya,0000,0000,0000,,Sou eu?
+Dialogue: 0,0:14:28.22,0:14:29.79,Main,Yotsuya,0000,0000,0000,,Hakozaki-san?!
+Dialogue: 0,0:14:33.45,0:14:34.78,Main,Yotsuya,0000,0000,0000,,O que faço?!
+Dialogue: 0,0:14:40.31,0:14:41.74,Main,Yotsuya,0000,0000,0000,,Voltei à vida?
+Dialogue: 0,0:14:41.74,0:14:44.65,Main,Shindou,0000,0000,0000,,Tá tudo bem! Você ressuscita\Napós 30 segundos.
+Dialogue: 0,0:14:44.65,0:14:47.32,Main,Yotsuya,0000,0000,0000,,Podia ter me avisado antes!
+Dialogue: 0,0:14:47.61,0:14:50.65,Main,Yotsuya,0000,0000,0000,,Bom, se não importa morrer,\Ntem como vencer.
+Dialogue: 0,0:14:51.00,0:14:52.29,Main,Yotsuya,0000,0000,0000,,Shindou-san!
+Dialogue: 0,0:14:52.91,0:14:54.36,Main,Yotsuya,0000,0000,0000,,Coopere comigo!
+Dialogue: 0,0:14:55.59,0:14:56.88,Main,Shindou,0000,0000,0000,,Vento!
+Dialogue: 0,0:14:59.67,0:15:00.63,Main,Shindou,0000,0000,0000,,Yotsuya-kun!
+Dialogue: 0,0:15:00.63,0:15:01.43,Main,Yotsuya,0000,0000,0000,,Certo!
+Dialogue: 0,0:15:07.74,0:15:10.71,Main,Yotsuya,0000,0000,0000,,É só ir desgastando a vida deles\Nenquanto lutam comigo!
+Dialogue: 0,0:15:10.72,0:15:14.68,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(1,684)\pos(198,110)\fs30\c&HFFFFFF&\blur2}Morto
+Dialogue: 0,0:15:10.72,0:15:14.68,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(1,684)\pos(201,211)\fs18\c&HFFFFFF&\blur2}Reviverá em
+Dialogue: 0,0:15:13.72,0:15:15.89,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(109,643)\fs34\c&HFFFFFF&\blur4\pos(198,128.667)}Revivido
+Dialogue: 0,0:15:14.98,0:15:16.16,Main,Shindou,0000,0000,0000,,Bom trabalho.
+Dialogue: 0,0:15:19.15,0:15:21.62,Main,Hako,0000,0000,0000,,O plano do Yotsuya-kun funcionou.
+Dialogue: 0,0:15:21.62,0:15:23.08,Main,Shindou,0000,0000,0000,,Sim, ganhou uns pontos comigo.
+Dialogue: 0,0:15:23.08,0:15:24.51,Main,Shindou,0000,0000,0000,,Só foi meio desengonçado.
+Dialogue: 0,0:15:24.51,0:15:27.58,Main,Yotsuya,0000,0000,0000,,Decida-se se vai me elogiar\Nou me insultar.
+Dialogue: 0,0:15:27.90,0:15:31.48,Main,Yotsuya,0000,0000,0000,,E fico surpreso que tenham conseguido\Nlidar com isso sozinhas até agora.
+Dialogue: 0,0:15:31.48,0:15:33.92,Main,Shindou,0000,0000,0000,,Ah, então...
+Dialogue: 0,0:15:34.58,0:15:39.75,Main,Text,0000,0000,0000,,{\fad(1,1188)\pos(320,10)\b1\an8\fs30\bord0\shad0}Missão 1
+Dialogue: 0,0:15:34.58,0:15:39.75,Main,Text,0000,0000,0000,,{\fad(1,1188)\pos(320,140)\b1\an8\fs30\bord0\shad0}<<Derrote 1 Goblin>>
+Dialogue: 0,0:15:39.17,0:15:40.85,Main,Shindou,0000,0000,0000,,Na primeira vez...
+Dialogue: 0,0:15:41.24,0:15:42.77,Main,Shindou,0000,0000,0000,,e na segunda vez...
+Dialogue: 0,0:15:41.25,0:15:44.59,Main,Text,0000,0000,0000,,{\fad(1,1188)\pos(320,140)\b1\an8\fs30\bord0\shad0}<<Descubra 2 Assentamentos>>
+Dialogue: 0,0:15:41.25,0:15:44.59,Main,Text,0000,0000,0000,,{\fad(1,1188)\pos(320,10)\b1\an8\fs30\bord2\shad0\3c&H325522&}Missão 2
+Dialogue: 0,0:15:42.77,0:15:45.35,Main,Shindou,0000,0000,0000,,eram coisas que dava pra lidar,\Nbastava persistir.
+Dialogue: 0,0:15:44.95,0:15:48.18,Flashback,Shindou,0000,0000,0000,,{\an8}Mais 10 segundos... Vai Kusue, acorda!
+Dialogue: 0,0:15:45.35,0:15:47.20,Main,Shindou,0000,0000,0000,,Bastava uma continuar viva.
+Dialogue: 0,0:15:49.10,0:15:51.59,Main,Yotsuya,0000,0000,0000,,O que acontece se todos morrerem?
+Dialogue: 0,0:15:51.59,0:15:54.11,Main,Shindou,0000,0000,0000,,Ué? Eu não te disse?
+Dialogue: 0,0:15:54.51,0:15:57.35,Main,Shindou,0000,0000,0000,,Se todos morrerem,\Ndisseram que morremos de verdade.
+Dialogue: 0,0:15:58.90,0:16:01.76,Main,Yotsuya,0000,0000,0000,,Nós morremos... de verdade?
+Dialogue: 0,0:16:07.54,0:16:11.37,Main,Yotsuya,0000,0000,0000,,O mapa marca os locais\Nonde já estivemos.
+Dialogue: 0,0:16:11.37,0:16:12.25,Main,Shindou,0000,0000,0000,,Sim.
+Dialogue: 0,0:16:12.96,0:16:15.69,Main,Shindou,0000,0000,0000,,Por ora, vamos tentar chegar\Nà vila no oeste amanhã?
+Dialogue: 0,0:16:15.69,0:16:16.85,Main,Shindou,0000,0000,0000,,É próxima.
+Dialogue: 0,0:16:16.85,0:16:19.28,Main,Hako,0000,0000,0000,,Espero que não seja uma missão difícil.
+Dialogue: 0,0:16:18.28,0:16:22.41,Sign,SIGN,0000,0000,0000,,{\p1\bord0\shad0\an5\c&HBCA05E&\pos(323,225.333)}m 0 0 l 172 0 l 172 84 l 0 84
+Dialogue: 0,0:16:18.28,0:16:22.41,Sign,SIGN,0000,0000,0000,,{\p1\bord0\shad0\an5\c&HBCA05E&\pos(490,228)}m 0 0 l 100 0 l 100 54 l 0 54
+Dialogue: 0,0:16:18.28,0:16:22.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\blur2\c&HFFFFFF&\fs18\pos(320,85)}Enxada quebrada
+Dialogue: 0,0:16:18.28,0:16:22.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\an4\fs12\blur2\pos(230,220)\c&HFFFFFF&}Ferramenta de Cultivo:  Rank 2\NMaterial:  Ferro, madeira\NEfeitos:{\fscx80}  -50% de força ao atacar qualquer\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hcoisa que não seja "planta"\N{\fs24\fscx85}\h\hRegeneração: 5 dias
+Dialogue: 0,0:16:18.28,0:16:22.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\blur2\c&HFFFFFF&\pos(490,140)\fs10}Foice quebrada
+Dialogue: 0,0:16:18.28,0:16:22.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\an4\fs8\fscx80\blur2\c&HFFFFFF&\pos(431,226)}Ferramenta de Cultivo:  Rank 2\NMaterial:  Ferro, madeira\NEfeitos:{\fscx80}  -50% de força ao atacar qualquer\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hcoisa que não seja "planta"\N{\fs14\fscx85}\h\hRegeneração: 5 dias
+Dialogue: 0,0:16:19.28,0:16:22.43,Italics,Yotsuya,0000,0000,0000,,Levam cinco dias pra regenerar?
+Dialogue: 0,0:16:23.62,0:16:27.72,Main,Yotsuya,0000,0000,0000,,Ah, qual é a recompensa\Npor completar as missões?
+Dialogue: 0,0:16:27.72,0:16:29.85,Main,Yotsuya,0000,0000,0000,,Ele me disse pra perguntar a vocês.
+Dialogue: 0,0:16:30.12,0:16:33.66,Main,Shindou,0000,0000,0000,,Bom, você terá o direito de fazer\Numa pergunta ao Game Master.
+Dialogue: 0,0:16:33.66,0:16:34.86,Main,Yotsuya,0000,0000,0000,,Que lixo!
+Dialogue: 0,0:16:34.86,0:16:38.75,Main,Shindou,0000,0000,0000,,Quando cumpri a primeira, perguntei\Na razão de eu ter sido escolhida...
+Dialogue: 0,0:16:39.26,0:16:44.00,Flashback,GM,0000,0000,0000,,Foi o pedido de alguém\Nque vocês conhe.
+Dialogue: 0,0:16:44.34,0:16:49.45,Main,Hako,0000,0000,0000,,Depois de cumprir a segunda missão,\Nperguntei "quem são vocês?".
+Dialogue: 0,0:16:49.98,0:16:52.43,Flashback,GM,0000,0000,0000,,Viemos do futuro distan.
+Dialogue: 0,0:16:53.56,0:16:59.10,Main,Yotsuya,0000,0000,0000,,Gente do futuro e\Numa pessoa que conhecemos, é?
+Dialogue: 0,0:17:00.42,0:17:02.55,Main,Yotsuya,0000,0000,0000,,Bom, seja como for...
+Dialogue: 0,0:17:03.08,0:17:04.94,Main,Yotsuya,0000,0000,0000,,Eu faço a primeira vigia.
+Dialogue: 0,0:17:05.66,0:17:07.03,Main,Shindou,0000,0000,0000,,Tá.
+Dialogue: 0,0:17:07.55,0:17:10.77,Italics,Yotsuya,0000,0000,0000,,Que pergunta eu vou fazer?
+Dialogue: 0,0:17:18.83,0:17:22.34,Italics,Yotsuya,0000,0000,0000,,Se todos morrerem,\Nmorremos de verdade?
+Dialogue: 0,0:17:22.89,0:17:26.60,Italics,Yotsuya,0000,0000,0000,,Será que significa morrer\Ntambém no mundo real?
+Dialogue: 0,0:17:27.23,0:17:31.24,Main,Yotsuya,0000,0000,0000,,Não entendi bem, mas é melhor\Nevitar isso, a qualquer custo.
+Dialogue: 0,0:17:31.59,0:17:32.73,Main,Shindou,0000,0000,0000,,Yotsuya-kun!
+Dialogue: 0,0:17:33.53,0:17:35.73,Main,Shindou,0000,0000,0000,,Yotsuya-kun! Yotsuya-kun!
+Dialogue: 0,0:17:35.73,0:17:36.65,Main,Yotsuya,0000,0000,0000,,Shindou-san?!
+Dialogue: 0,0:17:40.90,0:17:44.50,Main,Hako,0000,0000,0000,,Yo... Yotsuya-kun...
+Dialogue: 0,0:17:44.77,0:17:47.40,Main,Yotsuya,0000,0000,0000,,Hakozaki-san? O que aconteceu?!
+Dialogue: 0,0:18:04.87,0:18:05.82,Main,Shindou,0000,0000,0000,,Yotsuya-kun!
+Dialogue: 0,0:18:05.82,0:18:07.94,Main,Shindou,0000,0000,0000,,Fuja! Não dá pra vencê-lo!
+Dialogue: 0,0:18:12.22,0:18:13.76,Italics,Yotsuya,0000,0000,0000,,Ela foi devorada...
+Dialogue: 0,0:18:20.14,0:18:22.14,Italics,Yotsuya,0000,0000,0000,,Se eu morrer, tudo acaba!
+Dialogue: 0,0:18:24.82,0:18:27.20,Italics,Yotsuya,0000,0000,0000,,30 segundos até a Hakozaki-san voltar!
+Dialogue: 0,0:18:27.56,0:18:28.70,Main,Yotsuya,0000,0000,0000,,Shindou-san!
+Dialogue: 0,0:18:28.70,0:18:30.03,Italics,Yotsuya,0000,0000,0000,,Ela consegue ouvir?!
+Dialogue: 0,0:18:30.03,0:18:31.63,Main,Yotsuya,0000,0000,0000,,Vou na frente, até a vila!
+Dialogue: 0,0:18:33.32,0:18:36.47,Italics,Yotsuya,0000,0000,0000,,Um pedaço de pau é inútil contra aquilo!\NO que ela tem na cabeça?!
+Dialogue: 0,0:18:36.47,0:18:38.13,Italics,Yotsuya,0000,0000,0000,,Não dá pra lutar contra aquilo!
+Dialogue: 0,0:18:45.34,0:18:46.40,Main,Yotsuya,0000,0000,0000,,Hã?
+Dialogue: 0,0:18:46.40,0:18:48.82,Main,Yotsuya,0000,0000,0000,,Sua mão esquerda não foi regenerada?
+Dialogue: 0,0:18:48.82,0:18:52.32,Main,Hako,0000,0000,0000,,Acho que... foi porque ele a devorou.
+Dialogue: 0,0:18:52.32,0:18:56.00,Main,Yotsuya,0000,0000,0000,,Então a Shindou-san...\Nprovavelmente não reviveu?
+Dialogue: 0,0:18:56.00,0:18:56.81,Main,Hako,0000,0000,0000,,Hã?!
+Dialogue: 0,0:18:56.81,0:19:00.73,Italics,Yotsuya,0000,0000,0000,,Sério? Se nós dois morrermos, é o fim!
+Dialogue: 0,0:19:00.95,0:19:03.41,Sign,SIGN,0000,0000,0000,,{\fad(231,227)\p1\bord0\shad0\an5\c&HB07630&\pos(262.666,231.666)}m 0 0 l 125 0 l 125 120 l 0 120
+Dialogue: 0,0:19:00.95,0:19:03.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(231,227)\c&HFEFEF8&\blur1\pos(325.333,126.333)}Yotsuya Yuusuke
+Dialogue: 0,0:19:00.95,0:19:03.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(231,227)\c&HFEFEF8&\blur1\pos(325.333,160)}Fazendeiro                    Rank 4\h\h\h
+Dialogue: 0,0:19:00.95,0:19:03.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(231,227)\an6\fs16\pos(321.333,237)\c&HFFFFFF&\blur2\fscx95}Vida\h\h> 154%\N\NCorpo (sup)\h> 200%\NCorpo (inf)\h> 204%\NMúsculo\h\h\h\h\h\h\h\h\h\h\h\h\NInvoluntário\h> 114%\NForça\h> 154%
+Dialogue: 0,0:19:00.95,0:19:03.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(231,227)\fs12\c&HFEFEF8&\blur2\pos(395,262)}Pode aprender sobre\Nplantas comestíveis.
+Dialogue: 0,0:19:01.08,0:19:03.23,Italics,Yotsuya,0000,0000,0000,,Tenho zero poder de ataque.
+Dialogue: 0,0:19:03.23,0:19:05.85,Italics,Yotsuya,0000,0000,0000,,E a Hakozaki-san por si só\Nnão tem poder algum.
+Dialogue: 0,0:19:03.45,0:19:06.41,Sign,SIGN,0000,0000,0000,,{\fad(275,265)\p1\bord0\shad0\an5\c&HB07630&\pos(256,233)}m 0 0 l 126 0 l 126 122 l 0 122
+Dialogue: 0,0:19:03.45,0:19:06.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(275,265)\c&HFEFEF8&\blur1\pos(320,127)}Hakozaki Kusue
+Dialogue: 0,0:19:03.45,0:19:06.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(275,265)\c&HFEFEF8&\blur1\pos(319.333,160)}Guerreira (Espada)               Rank 1\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:19:03.45,0:19:06.41,sign_13387_134_Shindou_Yuu,SIGN,0000,0000,0000,,{\fad(275,265)\an6\fs16\pos(316,237)\c&HFFFFFF&\blur2\fscx95}Vida\h\h> 220%\N\NCorpo (sup)\h> 190%\NCorpo (inf)\h> 180%\NMúsculo\h\h\h\h\h\h\h\h\h\h\h\h\NInvoluntário\h> 170%\NForça\h> 190%
+Dialogue: 0,0:19:06.29,0:19:09.10,Main,Yotsuya,0000,0000,0000,,Não dá! É melhor ignorar aquele grandão
+Dialogue: 0,0:19:09.10,0:19:11.99,Main,Yotsuya,0000,0000,0000,,e completar a missão sem a Shindou-san.
+Dialogue: 0,0:19:14.89,0:19:17.92,Main,Villager,0000,0000,0000,,São os heróis! Os heróis estão aqui!
+Dialogue: 0,0:19:18.66,0:19:20.34,Main,Yotsuya,0000,0000,0000,,"Heróis", é?
+Dialogue: 0,0:19:20.34,0:19:24.09,Main,Hako,0000,0000,0000,,Parece que é como\Nnos chamam neste mundo.
+Dialogue: 0,0:19:24.68,0:19:26.55,Main,Yotsuya,0000,0000,0000,,Realmente é um jogo.
+Dialogue: 0,0:19:26.55,0:19:28.29,Main,Secas,0000,0000,0000,,Ei, são os heróis!
+Dialogue: 0,0:19:28.29,0:19:29.40,Main,Girl,0000,0000,0000,,Heróis!
+Dialogue: 0,0:19:29.40,0:19:31.04,Main,Secas,0000,0000,0000,,Meu nome é Secas!
+Dialogue: 0,0:19:31.04,0:19:32.49,Main,Yotsuya,0000,0000,0000,,Ah, olá pra vocês.
+Dialogue: 0,0:19:32.49,0:19:34.73,Main,Secas,0000,0000,0000,,Heróis são mesmo legais!
+Dialogue: 0,0:19:35.02,0:19:36.85,Italics,Yotsuya,0000,0000,0000,,Mas eu sou um fazendeiro.
+Dialogue: 0,0:19:37.15,0:19:40.57,Main,Secas,0000,0000,0000,,Também quero ser forte como vocês!
+Dialogue: 0,0:19:41.72,0:19:43.74,Italics,Yotsuya,0000,0000,0000,,Mas uma de nós foi devorada.
+Dialogue: 0,0:19:44.03,0:19:46.03,Main,Chief,0000,0000,0000,,Sou o líder da vila.
+Dialogue: 0,0:19:46.03,0:19:47.36,Main,Yotsuya,0000,0000,0000,,Olá.
+Dialogue: 0,0:19:47.36,0:19:50.21,Main,Yotsuya,0000,0000,0000,,E... qual é a sua solicitação?
+Dialogue: 0,0:19:50.21,0:19:55.14,Main,Chief,0000,0000,0000,,Bom, um monstro chamado troll\Napareceu nas redondezas da vila.
+Dialogue: 0,0:19:55.14,0:19:58.05,Italics,Yotsuya,0000,0000,0000,,Ei, não me diga que fala\Ndaquele grandão!
+Dialogue: 0,0:19:58.05,0:19:59.46,Main,Chief,0000,0000,0000,,Ele é assim.
+Dialogue: 0,0:19:59.46,0:20:02.96,Main,Chief,0000,0000,0000,,Por favor, derrote-o,\Npra salvar a nossa vila!
+Dialogue: 0,0:20:02.96,0:20:04.45,Italics,Yotsuya,0000,0000,0000,,Acabou...
+Dialogue: 0,0:20:05.93,0:20:10.65,Main,Yotsuya,0000,0000,0000,,B-Bom, você nunca conseguiu\Nderrotar um goblin, certo?
+Dialogue: 0,0:20:10.65,0:20:12.78,Main,Hako,0000,0000,0000,,Ah, eu... Isso.
+Dialogue: 0,0:20:12.78,0:20:14.86,Main,Hako,0000,0000,0000,,É difícil acertar minha espada neles.
+Dialogue: 0,0:20:14.86,0:20:17.85,Italics,Yotsuya,0000,0000,0000,,Mas você só jogou a espada...
+Dialogue: 0,0:20:17.85,0:20:22.72,Main,Hako,0000,0000,0000,,Acredito que a Yuu-chan não vai reviver\Npor estar dentro do troll.
+Dialogue: 0,0:20:22.72,0:20:25.36,Main,Hako,0000,0000,0000,,Precisamos encontrar um modo\Nde salvá-la.
+Dialogue: 0,0:20:27.91,0:20:29.67,Italics,Yotsuya,0000,0000,0000,,Ela é inútil.
+Dialogue: 0,0:20:29.67,0:20:32.72,Italics,Yotsuya,0000,0000,0000,,Por que não foi a Shindou-san\Nque sobreviveu?
+Dialogue: 0,0:20:33.59,0:20:35.62,Main,Hako,0000,0000,0000,,Ah, Yotsuya-kun?
+Dialogue: 0,0:20:36.12,0:20:38.54,Main,Yotsuya,0000,0000,0000,,Por favor, fique na vila.
+Dialogue: 0,0:20:39.26,0:20:40.46,Main,Hako,0000,0000,0000,,Hã?
+Dialogue: 0,0:20:40.86,0:20:42.80,Main,Yotsuya,0000,0000,0000,,Vou aumentar meu rank.
+Dialogue: 0,0:20:42.80,0:20:43.44,Main,Yotsuya,0000,0000,0000,,Até mais.
+Dialogue: 0,0:20:44.73,0:20:45.96,Main,Hako,0000,0000,0000,,Espere!
+Dialogue: 0,0:20:48.80,0:20:51.89,Main,Hako,0000,0000,0000,,Mas... eu também quero\Nsalvar a Yuu-chan...
+Dialogue: 0,0:20:52.18,0:20:53.43,Main,Yotsuya,0000,0000,0000,,Não leve a mal,
+Dialogue: 0,0:20:54.50,0:20:56.84,Main,Yotsuya,0000,0000,0000,,mas, se você acabar morrendo...
+Dialogue: 0,0:20:59.40,0:21:01.09,Main,Yotsuya,0000,0000,0000,,...quem vai levar a pior serei eu.
+Dialogue: 0,0:21:04.26,0:21:07.87,Flashback,Yotsuya,0000,0000,0000,,Isso! Vai, vai, vai!
+Dialogue: 0,0:21:07.87,0:21:09.28,Flashback,Yotsuya,0000,0000,0000,,Não vai fugir!
+Dialogue: 0,0:21:09.28,0:21:11.21,Flashback,Yotsuya,0000,0000,0000,,Morre! Morre!
+Dialogue: 0,0:21:11.21,0:21:13.25,Flashback,Yotsuya,0000,0000,0000,,Morre, morre, morre!
+Dialogue: 0,0:21:13.25,0:21:19.43,Flashback,Yotsuya,0000,0000,0000,,Morre, morre, morre, morre,\Nmorre, morre, morre, morre!
+Dialogue: 0,0:21:21.85,0:21:24.63,Flashback,Yotsuya,0000,0000,0000,,Consegui!
+Dialogue: 0,0:21:27.38,0:21:30.19,Italics,Yotsuya,0000,0000,0000,,Mesmo que minha vida corra perigo...
+Dialogue: 0,0:21:30.19,0:21:34.45,Italics,Yotsuya,0000,0000,0000,,este lugar me empolga milhões de vezes\Nmais que aquela merda de Tóquio!
+Dialogue: 0,0:21:35.02,0:21:40.02,EpNumber,Title,0000,0000,0000,,EPISÓDIO 1
+Dialogue: 0,0:21:35.02,0:21:40.02,Ep_Title,Title,0000,0000,0000,,{\c&HCACACA&\bord0\fnArial}Heróis {\fnTimes New Roman\bord1\c&000000&}In{\c&HCACACA&\bord0\fnArial}aptos
+Dialogue: 0,0:23:09.99,0:23:12.16,Main,Text,0000,0000,0000,,{\an8\fs18\c&HCE58E1&\3c&H8259A4&\shad0\pos(253,14)}Roleta de\N{\c&HD98B69&\3c&HFFDCC4&}Missões Secundárias
+Dialogue: 0,0:23:10.00,0:23:12.14,Main,GM,0000,0000,0000,,A missão secundária de hoje é...
+Dialogue: 0,0:23:13.93,0:23:15.07,Main,GM,0000,0000,0000,,Bam!
+Dialogue: 0,0:23:14.20,0:23:15.08,Main,Text,0000,0000,0000,,{\pos(240,218)\fs20\c&HE47D7D&\bord0\shad0}Desafio de dublagem!
+Dialogue: 0,0:23:15.07,0:23:16.66,Main,Shindou,0000,0000,0000,,Sou o líder da vila.
+Dialogue: 0,0:23:15.08,0:23:21.63,sign_33449_419_Shindou_Attempti,SIGN,0000,0000,0000,,Shindou\N{\fscx95}No desafio da dublagem!
+Dialogue: 0,0:23:15.37,0:23:16.62,sign_33456_418_Chief,SIGN,0000,0000,0000,,{\frz0\pos(114,71)}Líder da vila
+Dialogue: 0,0:23:16.66,0:23:18.05,Main,Yotsuya,0000,0000,0000,,Ei, mandou bem, Shindou-san!
+Dialogue: 0,0:23:17.87,0:23:24.92,sign_33456_418_Chief,SIGN,0000,0000,0000,,{\pos(532,68)}Líder da vila
+Dialogue: 0,0:23:18.05,0:23:22.33,Main,Shindou,0000,0000,0000,,Bom, um monstro chamado troll\Napareceu nas redondezas da vila.
+Dialogue: 0,0:23:22.33,0:23:25.52,Main,Shindou,0000,0000,0000,,Por favor, derrote-o,\Npara salvar nossa vila!
+Dialogue: 0,0:23:25.52,0:23:28.59,Main,GM,0000,0000,0000,,O próximo é o\NYotsuya Yuusuke, por fa.
+Dialogue: 0,0:23:28.59,0:23:30.51,Main,Yotsuya,0000,0000,0000,,Vou dublar o líder\Nda vila também?
+Dialogue: 0,0:23:30.51,0:23:31.69,Main,Yotsuya,0000,0000,0000,,Fácil demais.
+Dialogue: 0,0:23:31.51,0:23:32.93,sign_33449_419_Shindou_Attempti,SIGN,0000,0000,0000,,Yotsuya\N{\fscx95}No desafio da dublagem!
+Dialogue: 0,0:23:31.59,0:23:32.59,sign_33456_418_Chief,SIGN,0000,0000,0000,,{\q2\3c&H4331AF&\pos(525.667,70)}Shindou Yuu
+Dialogue: 0,0:23:31.69,0:23:33.08,Main,Yotsuya,0000,0000,0000,,Hakozaki-san!
+Dialogue: 0,0:23:33.01,0:23:35.26,sign_33456_418_Chief,SIGN,0000,0000,0000,,{\q2\3c&H4331AF&\pos(521,72)}Shindou Yuu
+Dialogue: 0,0:23:33.08,0:23:35.57,Main,Yotsuya,0000,0000,0000,,Poderia ser minha amiga?!
+Dialogue: 0,0:23:36.09,0:23:37.93,Main,GM,0000,0000,0000,,Foi medonho, falhou no desa.
+Dialogue: 0,0:23:37.93,0:23:39.85,Main,Yotsuya,0000,0000,0000,,O que quer que eu faça?!
