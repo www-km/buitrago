@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineKumaribo</title>
+    <link rel="icon" href="https://github.com/zona02/SMVL/raw/refs/heads/main/Icon/icono.webp" type="image/x-icon">
+    <style>
+        body {
+            background-image: url('https://raw.githubusercontent.com/zona02/SMVL/main/Icon/descargar.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .video-frame {
+            border: 10px solid #333;
+            border-radius: 15px;
+            overflow: hidden;
+            width: 80%;
+            max-width: 800px;
+            position: relative;
+        }
+        .video-frame::before {
+            content: "";
+            display: block;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        .video-frame video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .description {
+            margin-top: 20px;
+            max-height: 150px;
+            overflow-y: auto;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GOL CARACOL [KUMARIBO]</h1>
+        <div class="video-frame">
+            <video id="video" controls data-src="https://mdstrm.com/live-stream-playlist/66915343b012c46a872eac44.m3u8?uid=fbCVwyragjojEm4icQsmHElouQ87dlL1&sid=mCbN2U10U6E0z5tnd01i074N1yYsp8gM&pid=5P5IHBuzE2ruX7d9QYJlR1E0uSTCaDej&an=screen&at=web-app&av=v6.0.70&ref=https%3A%2F%2Fwww.noticiascaracol.com%2F&res=921x518&without_cookies=false&listenerid=&dnt=true"></video>
+        </div>
+        <div class="description">
+            <p>Esta es solo una retransmision, CLICK AL REPRODUCTOR PARA INICIAR</p>
+        </div>
+    </div>
+
+    <!-- Incluye hls.js desde un CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="KMPLAYER.js"></script>
+</body>
+</html>
