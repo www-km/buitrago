@@ -1,64 +1,102 @@
-body.index {
-    background-image: url('https://raw.githubusercontent.com/zona02/buitrago/main/portada.jpg');
-    background-size: cover;
-    background-position: center;
+body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    color: white;
-    text-align: center;
+    background: url('https://wallpapers.com/images/hd/terraria-dark-woods-nppvbaabtj8ivck9.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
-.title {
-    font-size: 36px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    animation: disco 1s infinite alternate;
-    margin: 20px 0;
+h1, .title {
+    text-align: center;
+    font-size: 3em;
+    background: linear-gradient(90deg, black, darkred, firebrick, orange, gold, yellow, lime, green, teal, navy, blue, purple, magenta, red, crimson, darkorange, darkviolet, darkblue, darkgreen, darkcyan);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: discoText 5s linear infinite;
+    background-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 1px black;
+}
+
+@keyframes discoText {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .carousel {
+    display: flex;
+    overflow-x: auto;
     padding: 20px;
-    gap: 20px; /* Espacio entre las carátulas */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.carousel-inner {
-    display: flex;
-    flex-wrap: nowrap; /* Evita que las imágenes se envuelvan a la siguiente línea */
-    overflow-x: auto; /* Permite el desplazamiento horizontal */
-    gap: 20px; /* Espacio entre las carátulas */
+    gap: 20px;
+    justify-content: center;
 }
 
 .cover {
     flex: 0 0 auto;
-    width: 200px; /* Asegura que todas las carátulas tengan el mismo tamaño */
-    height: 300px; /* Asegura que todas las carátulas tengan el mismo tamaño */
-    margin-bottom: 40px; /* Espacio adicional debajo de cada carátula */
+    width: 200px;
+    text-align: center;
     transition: transform 0.3s;
 }
 
 .cover img {
-    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
-    height: 100%; /* Ajusta la imagen al tamaño del contenedor */
-    object-fit: cover;
-}
-
-.cover p {
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    animation: disco 1s infinite alternate;
-    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .cover:hover {
-    transform: scale(1.1); /* Aumenta el tamaño de la carátula al pasar el cursor */
+    transform: scale(1.1);
 }
 
-@keyframes disco {
-    0% { color: red; }
-    25% { color: yellow; }
-    50% { color: green; }
-    75% { color: blue; }
-    100% { color: purple; }
+.cover p {
+    margin-top: 10px;
+    font-size: 1em;
+    background: linear-gradient(90deg, black, darkred, firebrick, orange, gold, yellow, lime, green, teal, navy, blue, purple, magenta, red, crimson, darkorange, darkviolet, darkblue, darkgreen, darkcyan);
+-webkit-background-clip: text;
+    color: transparent;
+    animation: discoText 5s linear infinite;
+    background-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 1px black;
+}
+
+@keyframes flow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    h1, .title {
+        font-size: 2em;
+    }
+    .cover {
+        width: 150px;
+    }
+    .search-container input[type="text"] {
+        width: 90%;
+    }
 }
