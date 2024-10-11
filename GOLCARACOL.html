@@ -71,7 +71,7 @@
         var video = document.getElementById('video');
         if (Hls.isSupported()) {
             var hls = new Hls();
-            hls.loadSource('https://mdstrm.com/live-stream-playlist/66915343b012c46a872eac44.m3u8?uid=fbCVwyragjojEm4icQsmHElouQ87dlL1&sid=mCbN2U10U6E0z5tnd01i074N1yYsp8gM&pid=5P5IHBuzE2ruX7d9QYJlR1E0uSTCaDej&an=screen&at=web-app&av=v6.0.70&ref=https%3A%2F%2Fwww.noticiascaracol.com%2F&res=921x518&without_cookies=false&listenerid=&dnt=true');
+            hls.loadSource('https://co-e1-p-e-mf2.cdn.mdstrm.com/live-stream-gdai/linear/hls/pa/event/2ygezlWEQ_6aGp174wABOw/stream/66d7721d-3e84-4f41-86bd-d9dd75a9cbb2:CHS/variant/f3b1fbe4c02c39fd98e361f623351581/bandwidth/2635600.m3u8?aid=589b1365f30bc52f54100dd8&uid=fbCVwyragjojEm4icQsmHElouQ87dlL1&sid=mCbN2U10U6E0z5tnd01i074N1yYsp8gM&pid=5P5IHBuzE2ruX7d9QYJlR1E0uSTCaDej&ref=https%3A%2F%2Fwww.noticiascaracol.com%2F&without_cookies=false&listenerid=&dnt=true&adInsertionGoogleStreamId=66d7721d-3e84-4f41-86bd-d9dd75a9cbb2%3ACHS&es=co-e1-p-e-mf2.cdn.mdstrm.com&ote=1728763822953&ot=u0klQduAiuoZkl50HABzyg&proto=https&pz=us');
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function() {
                 video.play();
