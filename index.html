@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineKumaribo</title>
-     <link rel="icon" href="https://github.com/zona02/SMVL/raw/refs/heads/main/Icon/icono.webp" type="image/x-icon">
+    <link rel="icon" href="https://github.com/zona02/SMVL/raw/refs/heads/main/Icon/icono.webp" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="index">
     <h1 class="title">Bienvenidos a la Portada de Películas</h1>
-    <div class="carousel">
-        <!-- Aquí irán las carátulas de las películas o series -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Buscar películas...">
+        <button onclick="searchMovies()">Buscar</button>
+    </div>
+    <div class="carousel" id="carousel">
         <div class="cover" onclick="location.href='https://zona02.github.io/buitrago/Tensei%20Kizoku%2C%20Kantei%20Skill%20de%20Nariagaru%20%5B2024%5D/Tensei%20Kizoku%2C%20Kantei%20Skill%20de%20Nariagaru%20%5B2024%5D.html'">
             <img src="https://es.web.img2.acsta.net/pictures/23/08/28/10/24/5297137.jpg" alt="Película 1">
             <p>Tensei Kizoku, Kantei Skill de Nariagaru [2024] tempora 1</p>
         </div>
-         </div>
-<div class="cover" onclick="location.href='https://zona02.github.io/buitrago/Tensei%20Kizoku%2C%20Kantei%20Skill%20de%20Nariagaru%20%5B2024%5D/Tensei%20Kizoku%2C%20Kantei%20Skill%20de%20Nariagaru%202nd%20Season%20%5B2024%5D%5BSub-Esp%5D.html'">
+        <div class="cover" onclick="location.href='https://zona02.github.io/buitrago/Tensei%20Kizoku%2C%20Kantei%20Skill%20de%20Nariagaru%20%5B2024%5D/Tensei%20Kizoku%2C%20Kantei%20Skill%20de%20Nariagaru%202nd%20Season%20%5B2024%5D%5BSub-Esp%5D.html'">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAyunoKLEs0Gxqtqp6Zi6Hh439dATvN2pZg&s" alt="Película 4">
             <p>Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season [2024][Sub-Esp]</p>
         </div>
@@ -31,8 +33,22 @@
         <div class="cover" onclick="location.href='https://zona02.github.io/buitrago/thebyebyeman2017.html'">
             <img src="https://www.mubis.es/media/releases/10250/188025/nunca-digas-su-nombre-bye-bye-man-blu-ray-l_cover.jpg" alt="Película 4">
             <p>Nunca digas su nombre</p>
-       
+        </div>
         <!-- Añadir más carátulas según sea necesario -->
     </div>
+    <script>
+        function searchMovies() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const covers = document.querySelectorAll('.cover');
+            covers.forEach(cover => {
+                const title = cover.querySelector('p').textContent.toLowerCase();
+                if (title.includes(input)) {
+                    cover.style.display = 'block';
+                } else {
+                    cover.style.display = 'none';
+                }
+            });
+        }
+    </script>
 </body>
 </html>
