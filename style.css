@@ -41,10 +41,10 @@ h1, .title {
 
 .cover img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
-
 .cover:hover {
     transform: scale(1.1);
 }
