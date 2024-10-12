@@ -6,11 +6,27 @@
     <title>CineKumaribo</title>
     <link rel="icon" href="https://github.com/zona02/SMVL/raw/refs/heads/main/Icon/icono.webp" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        #noResultsMessage {
+            display: none;
+            text-align: center;
+            color: #ff0000; /* Color rojo */
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejor legibilidad */
+            font-size: 2em; /* Tamaño de fuente grande */
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            #noResultsMessage {
+                font-size: 1.5em; /* Ajuste para pantallas pequeñas */
+            }
+        }
+    </style>
 </head>
 <body class="index">
     <h1 class="title">Bienvenidos a la Portada de Películas</h1>
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Buscar películas...">
+        <input type="text" id="searchInput" oninput="searchMovies()" placeholder="Buscar películas...">
         <button onclick="searchMovies()">Buscar</button>
     </div>
     <div class="carousel" id="carousel">
@@ -36,18 +52,33 @@
         </div>
         <!-- Añadir más carátulas según sea necesario -->
     </div>
+    <div id="noResultsMessage">No hay resultados</div>
+
     <script>
         function searchMovies() {
             const input = document.getElementById('searchInput').value.toLowerCase();
             const covers = document.querySelectorAll('.cover');
+            let hasResults = false;
+
             covers.forEach(cover => {
                 const title = cover.querySelector('p').textContent.toLowerCase();
                 if (title.includes(input)) {
                     cover.style.display = 'block';
+                    hasResults = true;
                 } else {
                     cover.style.display = 'none';
                 }
             });
+
+            const noResultsMessage = document.getElementById('noResultsMessage');
+            if (input === '') {
+                covers.forEach(cover => cover.style.display = 'block');
+                noResultsMessage.style.display = 'none';
+            } else if (!hasResults) {
+                noResultsMessage.style.display = 'block';
+            } else {
+                noResultsMessage.style.display = 'none';
+            }
         }
     </script>
 </body>
