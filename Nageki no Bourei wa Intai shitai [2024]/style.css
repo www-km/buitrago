@@ -157,7 +157,7 @@ h1, .title {
 .iframe-name {
     flex-grow: 1;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
