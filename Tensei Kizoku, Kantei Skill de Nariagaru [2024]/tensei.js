@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const iframes = [
-    { src: "https://terabox.com/sharing/embed?surl=c5tzEGd7Ys2o04dTGR5N4w&resolution=1080&autoplay=true&mute=false&uk=4400793594669&fid=589120016337609&slid=", name: "T01E01" },
-    { src: "https://terabox.com/sharing/embed?surl=MhcgytjLmgSqfMiwazl3xg&resolution=1080&autoplay=true&mute=false&uk=4400793594669&fid=848627765847674&slid=", name: "T01E02" }
-];
-
+    { src: "https://terabox.com/sharing/embed?surl=c5tzEGd7Ys2o04dTGR5N4w&resolution=1080&autoplay=true&mute=false&uk=4400793594669&fid=589120016337609&slid=", name: "T02E01" },
+    { src: "https://terabox.com/sharing/embed?surl=MhcgytjLmgSqfMiwazl3xg&resolution=1080&autoplay=true&mute=false&uk=4400793594669&fid=848627765847674&slid=", name: "T02E02" },
+ { src: "https://terabox.com/sharing/embed?surl=A9loUM0Cxh8J9RlYe2WxhQ&resolution=1080&autoplay=true&mute=false&uk=4400793594669&fid=848627765847674&slid=", name: "T02E03" }
+]; 
 let currentIframe = 0;
 
 function updateIframe() {
