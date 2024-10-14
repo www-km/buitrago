@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const iframes = [
-    { src: "https://terabox.com/sharing/embed?surl=TyKu33otFIzua3pWIR158A&resolution=720&autoplay=true&mute=false&uk=4400793594669&fid=637389966422299&slid=", name: "T02E01 En este mundo tambien te conozco" }
+    { src: "https://terabox.com/sharing/embed?surl=TyKu33otFIzua3pWIR158A&resolution=720&autoplay=true&mute=false&uk=4400793594669&fid=637389966422299&slid=", name: "T02E01" },
+    { src: "https://terabox.com/sharing/embed?surl=BRTXStAoKDvvc2f-PEuxpg&resolution=720&autoplay=true&mute=false&uk=4400793594669&fid=637389966422299&slid=", name: "T02E02" }
 ];
-
 let currentIframe = 0;
 
 function updateIframe() {
