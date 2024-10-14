@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 const iframes = [
     { src: "https://terabox.com/sharing/embed?surl=KkPykdUqDvTLZ5emNM5Qog&resolution=1080&autoplay=true&mute=false&uk=4400793594669&fid=305507874696132&slid=", name: "T01E01 Solo quiero irme a casa" },
     { src: "https://terabox.com/sharing/embed?surl=bzpfxV9nA7Njs-c1gwglFQ&resolution=1080&autoplay=true&mute=false&uk=4400793594669&fid=25109009172109&slid=", name: "T01E02 Quiero dejarle esto a Tino y relajarme"},
-  { src: "https://terabox.com/sharing/embed?surl=_TIM5x6fwPfNIIpBw_-VSA&autoplay=true&mute=false&uk=4400793594669&fid=25109009172109&slid=", name: "T01E03 Quiero volar por el cielo"}
+    { src: "https://terabox.com/sharing/embed?surl=_TIM5x6fwPfNIIpBw_-VSA&resolution=1080&autoplay=true&mute=false&uk=4400793594669&fid=25109009172109&slid=", name: "T01E03 Quiero volar por el cielo"}
 ];
 let currentIframe = 0;
 
