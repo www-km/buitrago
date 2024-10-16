@@ -10,7 +10,7 @@
 <body>
     <div class="kmbo"><h1>Tomb Raider: La leyenda de Lara Croft 2023 NETFLIX TEMPORADA 1</h1></div>
   
-    <div id="adContainer" class="ad-video-container" style="display: none;">
+    <div id="adContainer" class="ad-video-container">
         <video id="adVideo" class="ad-video" controls>
             <source src="https://scontent-bog2-2.xx.fbcdn.net/v/t42.1790-2/463170976_548173287587742_1948440663674084172_n.mp4?_nc_cat=110&ccb=1-7&_nc_sid=55d0d3&efg=eyJybHIiOjQyMywicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoic3ZlX3NkIiwidmlkZW9faWQiOjQwMjQxNDk4NjI2NTQ3N30\u00253D&_nc_e2o=402414986265477&_nc_ohc=uHmwF5Rl_-MQ7kNvgHSOS8g&_nc_zt=28&rl=423&vabr=235&_nc_ht=scontent-bog2-2.xx&_nc_gid=APcZTM-e4YVVN-BBOfj9uyP&oh=00_AYDPblbX2Im9VfQoosYVJnpDL-uL7V0W96J01L6uov-LuA&oe=671547B7" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
@@ -46,7 +46,36 @@
             <a href="https://terabox.com/s/16zYKrqxp1kmglbchCSXTFg" class="terabox-link">🔗TERABOX [CINEKUMARIBO]🔗</a>
         </div>
     </div>
-    <script src="kmboblock.js"></script>
-    <script src="tombraider.js"></script>
+    <script>
+        const adVideo = document.getElementById('adVideo');
+        const adContainer = document.getElementById('adContainer');
+        const mainContent = document.getElementById('mainContent');
+        const adWarning = document.getElementById('adWarning');
+        const playButton = document.getElementById('playButton');
+
+        adVideo.addEventListener('play', () => {
+            adWarning.style.display = 'none';
+            adContainer.style.display = 'block';
+        });
+
+        adVideo.addEventListener('pause', () => {
+            alert('El anuncio se ha pausado. La página se cerrará.');
+            window.close();
+        });
+
+        adVideo.addEventListener('seeking', () => {
+            alert('Has intentado adelantar el anuncio. La página se cerrará.');
+            window.close();
+        });
+
+        adVideo.addEventListener('ended', () => {
+            adContainer.style.display = 'none';
+            mainContent.style.display = 'block';
+        });
+
+        playButton.addEventListener('click', () => {
+            adVideo.play();
+        });
+    </script>
 </body>
 </html>
