@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CineKumaribo</title>
+    <link rel="icon" href="https://github.com/zona02/SMVL/raw/refs/heads/main/Icon/icono.webp" type="image/x-icon">
+    <link rel="stylesheet" href="body.css">
+<link rel="stylesheet" href="titles.css">
+<link rel="stylesheet" href="video-container.css">
+<link rel="stylesheet" href="ad-warning.css">
+<link rel="stylesheet" href="terabox-link.css">
+<link rel="stylesheet" href="navigation.css">
+<link rel="stylesheet" href="media-queries.css">
+<link rel="stylesheet" href="ad-video-container.css">
+<link rel="stylesheet" href="description.css">
+    <link rel="stylesheet" href="captchastyle.css">
+</head>
+<body>
+    <div class="kmbo"><h1>My Hero Academia: You're Next Latino</h1></div>
+    
+    <div id="captchaContainer" class="captcha-container">
+        <div class="br"><p>Por favor, verifica que eres humano</p></div>
+        <div id="captcha"></div>
+        <input type="text" id="captchaInput" placeholder="Ingresa el texto del CAPTCHA">
+        <button onclick="validateCaptcha()">Validar</button>
+        <p id="result"></p>
+    </div>
+
+    <div id="adContainer" class="ad-video-container" style="display: none;">
+        <video id="adVideo" class="ad-video" controls>
+            <source src="https://scontent-bog2-2.xx.fbcdn.net/v/t42.1790-2/463170976_548173287587742_1948440663674084172_n.mp4?_nc_cat=110&ccb=1-7&_nc_sid=55d0d3&efg=eyJybHIiOjQyMywicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoic3ZlX3NkIiwidmlkZW9faWQiOjQwMjQxNDk4NjI2NTQ3N30\u00253D&_nc_e2o=402414986265477&_nc_ohc=uHmwF5Rl_-MQ7kNvgHSOS8g&_nc_zt=28&rl=423&vabr=235&_nc_ht=scontent-bog2-2.xx&_nc_gid=APcZTM-e4YVVN-BBOfj9uyP&oh=00_AYDPblbX2Im9VfQoosYVJnpDL-uL7V0W96J01L6uov-LuA&oe=671547B7" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+    <div id="adWarning" class="ad-warning" style="display: none;">
+        <p>⚠️Adelantar o pausar el anuncio provocará el cierre automático de la página⚠️</p>
+        <p>🍿Podrás disfrutar del contenido en cuanto finalice el anuncio🍿</p>
+        <button id="playButton">▶️ Play</button>
+    </div>
+    <div id="mainContent" style="display: none;">
+        <div class="video-container" id="videoContainer"></div>
+        <div class="navigation">
+            <button id="prevButton" onclick="prevIframe()">Anterior</button>
+            <span class="iframe-name" id="iframeName"></span>
+            <button id="nextButton" onclick="nextIframe()">Siguiente</button>
+        </div>
+        <div class="description">
+            <h2 class="title">SINOPSIS</h2>
+            <p class="synopsis">En una sociedad en la que héroes y villanos luchan continuamente en nombre de la paz y el caos, Deku, un estudiante de U.A. High School que aspira a ser el mejor héroe posible, se enfrenta al villano que imita al héroe al que admira desde hace tiempo. ¿Podrán Deku y el resto de la clase 1-A del instituto U.A. proteger el mundo acabando con Dark Might, el hombre que pretende ser el nuevo símbolo de la paz?</p>
+            <p class="info">
+               <div class="km"> Título original</div> Boku no Hero Academia The Movie You're Nextaka<br>
+<div class="km">Año</div> 2024<br>
+<div class="km">Audio</div> Latino<br>
+<div class="km">Calidad</div>CAM<br>
+<div class="km">Peso</div>924.67MB<br>
+<div class="km">Duración</div>110 min.<br>
+<div class="km">País </div>Japón<br>
+<div class="km">Dirección</div>Tensai Okamura<br>
+<div class="km">Guion</div>Yōsuke Kuroda. Manga: Kôhei Horikoshi<br>
+<div class="km">Reparto</div>Animación<br>
+<div class="km">Música</div>Yuki Hayashi<br>
+<div class="km">Fotografía</div>Animación, Mayuko Furumoto, Takashi Sawa<br>
+<div class="km">Compañías</div>BONES, Dentsu Inc, Movic, Nippon TV, Shueisha, Toho, YTV<br>
+<div class="km">Género</div>Animación. Acción. Fantástico | Superhéroes. Manga<br>
+<div class="km">Grupos</div>My Hero Academia - Boku no Hero<br>
+              
+            </p>
+            <p class="warning">👇TERABOX👇</p>
+            <a href="https://terabox.com/s/1TGrbX79OLWSOOfUXGRnYDg" class="terabox-link">🔗TERABOX [CINEKUMARIBO]🔗</a>
+        </div>
+    </div>
+<script src="captcha.js"></script>
+    <script src="kmboblock.js"></script>
+    <script src="video-iframe.js"></script>
+</body>
+</html>

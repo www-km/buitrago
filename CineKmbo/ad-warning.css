@@ -1,0 +1,41 @@
+.ad-warning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.9);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    overflow: auto;
+}
+
+#playButton {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#playButton:hover {
+    background-color: #0056b3;
+}
+
+.ad-message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: -40px; /* Ajusta este valor según sea necesario */
+}

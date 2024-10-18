@@ -1,0 +1,69 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 1em; /* Ajuste general de fuente */
+    }
+    .kmbo h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .captcha-container {
+        padding: 10px;
+        text-align: center;
+    }
+    .captcha-container p {
+        font-size: 1em;
+    }
+    .captcha-container input, .captcha-container button {
+        width: 80%;
+        margin: 5px auto;
+        font-size: 1em;
+    }
+    .ad-video-container {
+        width: 100%;
+        height: auto;
+    }
+    .ad-warning {
+        font-size: 0.9em;
+        text-align: center;
+        padding: 10px;
+    }
+    .ad-warning p {
+        margin: 5px 0;
+    }
+    .video-container {
+        width: 100%;
+        height: 30vh;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .navigation button {
+        font-size: 0.8em;
+        padding: 8px 16px;
+        margin: 0 5px;
+    }
+    .iframe-name {
+        font-size: 1.2em;
+    }
+    .description {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .description .title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .description .synopsis, .description .info, .description .warning {
+        font-size: 1em;
+        text-align: justify;
+    }
+    .terabox-link {
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+}
