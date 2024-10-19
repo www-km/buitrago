@@ -1,0 +1,11 @@
+.terabox-link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    background: linear-gradient(90deg, yellow, blue, red, white);
+    background-size: 400%;
+    background-clip: text; /* Propiedad estándar */
+    -webkit-background-clip: text; /* Propiedad con prefijo para compatibilidad */
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
