@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const iframes = [
-    { src: "https://terabox.com/sharing/embed?surl=nBg9tLD6B-_PrAUgnkxavw&resolution=480&autoplay=true&mute=false&uk=4400793594669&fid=404595493790887&slid=", name: "PELICULA" }
+    { src: "https://terabox.com/sharing/embed?surl=1RUCG9AzcDpC4j4VM9hfgw&resolution=480&autoplay=true&mute=false&uk=4400793594669&fid=404595493790887&slid=", name: "PELICULA" }
 ];
 
 let currentIframe = 0;
