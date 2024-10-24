@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.navigation button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px; /* Añadido para alinear hacia adentro */
+}
+
+.navigation button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.iframe-name {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: center;
+    color: white; /* Cambiado a blanco */
+}
