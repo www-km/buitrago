@@ -1,5 +1,6 @@
-.description, .kmbo, .iframe-name {
+.description, .kmbo {
     overflow: auto;
+ font-size: 1em;
     background-color: grey;
     padding: 0px;
     height: auto;
@@ -10,7 +11,19 @@
     text-align: center;
 }
 
-.synopsis, .warning {
-    margin-top: 10px;
+.description {
+    margin-top: 1px;
     color: white;
+}
+.title {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.km {
+    font-size: 2em;
+    text-align: center;
+    color: black;
 }
