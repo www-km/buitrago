@@ -1,0 +1,16 @@
+.description, .kmbo, .iframe-name {
+    overflow: auto;
+    background-color: grey;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    color: white;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+}
+
+.synopsis, .warning {
+    margin-top: 10px;
+    color: white;
+}
