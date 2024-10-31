@@ -1,0 +1,242 @@
+/* Estilos generales */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 975px;
+    margin: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2f2f2f; /* Fondo gris oscuro */
+    color: #ffffff; /* Color de texto blanco para mejor legibilidad */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+}
+
+.watermark {
+            position: absolute;
+            top: 1vh;
+            left: 1vw;
+            display: flex;
+            align-items: center;
+            opacity: 0.7;
+        }
+        .watermark img {
+            width: 3vw;
+            height: 3vw;
+            margin-right: 1vw;
+        }
+        .watermark span, .overflow-content h1, .overflow-content p.subtitle, .km, .overflow-content a {
+            font-size: 2vw;
+            font-weight: bold;
+            text-shadow: 0.2vw 0.2vw 0.4vw #000;
+            color: #FF0000; /* Rojo */
+            background: linear-gradient(to right, #FF0000 33%, #FFFF00 33%, #FFFF00 66%, #0033CC 66%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Estilos para el overflow */
+        .overflow {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .overflow-content {
+            background-color: gray; /* Verde bosque */
+    font-size: 2vw;
+color: black;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 90%;
+            max-height: 90%;
+            overflow-y: auto;
+        }
+       .overflow-close {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    cursor: pointer;
+    font-size: 40px;
+    color: red;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.overflow-close:hover {
+    transform: scale(1.2) rotate(20deg);
+    color: yellow;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.overflow-close:active {
+    animation: pulse 0.5s;
+}
+
+        
+.overflow-content a {
+           
+font-size: 1.5em;
+            text-decoration: none;
+        }
+        .overflow-content a:hover {
+            text-decoration: underline;
+        }
+
+/* Estilos generales */
+body {
+    background-color: #2f2f2f; /* Fondo gris oscuro */
+    color: #ffffff; /* Color de texto blanco para mejor legibilidad */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 975px;
+    margin: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para iframe-container */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin-bottom: 10px; /* Reducir espacio */
+    border: 5px solid green; /* Borde verde */
+    background: linear-gradient(to bottom, rgba(204, 204, 204, 0.8), rgba(153, 153, 153, 0.8)); /* Fondo gris sombreado */
+    box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.5); /* Sombra roja difusa */
+    overflow: hidden; /* Para que el contenido no se salga del contenedor */
+}
+
+.iframe-container::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.5), transparent);
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenedor */
+}
+
+.video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto; /* Reducir espacio */
+}
+.navigation button {
+  overflow: hidden;
+    font-size: 1em; /* Aumentar tamaño de fuente */
+    background-color: green; /* Verde más vibrante */
+    box-sizing: border-box;
+    padding: 10px; /* Añadir algo de padding */
+    height: auto;
+    width: 100%;
+    color: #FFF; /* Blanco puro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto; /* Espacio más grande */
+    max-width: 1000px;
+    font-style: italic;
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas */
+    text-shadow: 2px 2px 4px #000; /* Sombra de texto */
+    border: 2px solid #FFF; /* Borde blanco */
+    border-radius: 50px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de caja */
+}
+
+.navigation button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.iframe-name {
+    overflow: hidden;
+    font-size: 0.8em; /* Aumentar tamaño de fuente */
+    background-color: green; /* Verde más vibrante */
+    box-sizing: border-box;
+    padding: 10px; /* Añadir algo de padding */
+    height: auto;
+    width: 100%;
+    color: #FFF; /* Blanco puro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto; /* Espacio más grande */
+    max-width: 1000px;
+    font-style: italic;
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas */
+    text-shadow: 2px 2px 4px #000; /* Sombra de texto */
+    border: 2px solid #FFF; /* Borde blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de caja */
+}
+
+.kmbo {
+overflow: hidden;
+    font-size: 0.6em; /* Aumentar tamaño de fuente */
+    background-color: green; /* Verde más vibrante */
+    box-sizing: border-box;
+    padding: 0px; /* Añadir algo de padding */
+    height: auto;
+    width: 100%;
+    color: #FFF; /* Blanco puro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto; /* Espacio más grande */
+    max-width: 800px;
+    font-style: italic;
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas */
+    text-shadow: 2px 2px 4px #000; /* Sombra de texto */
+    border: 2px solid #FFF; /* Borde blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de caja */
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 600px) {
+    .kmbo, .iframe-name, .navigation, .overflow-content {
+        font-size: 0.5em; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+}
