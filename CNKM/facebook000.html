@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CineKumaribo</title>
+    <link rel="icon" href="https://github.com/zona02/SMVL/raw/refs/heads/main/Icon/icono.webp" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5em;
+            color: #1877F2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+          font-family: 'Roboto', sans-serif;
+            font-size: 2.5em;
+            color: #1877F2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            color: #000;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        video {
+            width: 50%;
+            height: 50%;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 1em;
+            }
+            video {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FACEBOOK</h1>
+        
+        <video id="video" controls>
+            <source src="https://scontent-bog2-1.xx.fbcdn.net/v/t42.1790-2/448330848_1447920252511267_3733332611324848504_n.mp4?_nc_cat=106&ccb=1-7&_nc_sid=55d0d3&efg=eyJybHIiOjk2MSwicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoic3ZlX3NkIiwidmlkZW9faWQiOjkyMTgwMzMxNjQ4OTA0MDR9&_nc_e2o=9218033164890404&_nc_eui2=AeF5f_aSgqXdl1Uiuc-2VhQyqdu7ItuwvMKp27si27C8wh6u2nF_7LSfihSTrS5bHWJibvBoK-gBA8hy_hy35KtD&_nc_ohc=tWi_9eaNxEIQ7kNvgHYRVHM&_nc_zt=28&rl=961&vabr=534&_nc_ht=scontent-bog2-1.xx&_nc_gid=AcxYf7kRScStBb7eE8kRZnQ&oh=00_AYCGx32p4KAd8ATA-87YodaoDXcUlI9s68N1N7o4QxDTnQ&oe=672969BF" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+<h2>Descripción</h2>
+        <p>Dar play al video, cuando este finalice sera redirigido a la pagina principal. En la pagina principal, para ver la lista de los episodios dar click sobre el titulo.</p>
+    </div>
+    <script>
+        document.getElementById('video').addEventListener('ended', function() {
+            window.location.href = 'Amagi Brilliant Park.html';
+        });
+    </script>
+</body>
+</html>
