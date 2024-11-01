@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://image.tmdb.org/t/p/original/xlkclSE4aq7r3JsFIJRgs21zUew.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding: 0px;
+            box-sizing: border-box;
+            border: 12px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            background-image: url('https://image.tmdb.org/t/p/original/cVg97LOJgrDZJ7bVmjU2KsGRYnU.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5em;
+            color: #1877F2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5em;
+            color: #1877F2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #a8e6cf, #dcedc1, #ffd3b6, #ffaaa5, #ff8b94);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+        video {
+            width: 60%;
+        
+        }
+        @media (max-width: 600px) {
+    .container, .animated-link {
+        font-size: 0.7em; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+            h1 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 1em;
+            }
+            video {
+                width: 100%;
+            }
+        }
+@keyframes colorAnimation {
+            0% { color: red; }
+            25% { color: orange; }
+            50% { color: yellow; }
+            75% { color: green; }
+            100% { color: blue; }
+        }
+
+        @keyframes blinkAnimation {
+            0%, 100% { color: red; }
+            50% { color: blue; }
+        }
+
+        .animated-link {
+            text-decoration: none;
+           
+            font-weight: bold;
+            animation: colorAnimation 5s linear infinite;
+        }
+
+        .animated-link:hover {
+            animation: blinkAnimation 1s linear infinite;
+        }
