@@ -10,7 +10,7 @@ var iframes = [
    
  {
         name: "S01E01 Colmillos de la fortuna",
-        url: "https://mixdrop.is/e/367n66eecmm4v0q"
+        url: "https://drive.google.com/file/d/1q5C33SSV-s2QU1BKLtH9Fy45pIdnavwM/preview"
     },
     {
         name: "S01E02 Colmillos de la fortuna",
@@ -19,12 +19,12 @@ var iframes = [
  {
         name: "S01E03 Colmillos de la fortuna",
         url: "https://drive.google.com/file/d/1yQK3w8U23NMtgy5-jr7irImRX_SbLZuJ/preview"
-    }
- /*{
-        name: "S01E04 Demasiado tarde",
-        url: "https://abysscdn.com/?v=pi5jJLySA"
     },
  {
+        name: "S01E04 Colmillos de la fortuna",
+        url: "https://drive.google.com/file/d/1zTs_qS3VmbgYaSUhD-cXvjsCqUC6-wPx/preview"
+    }
+ /*{
         name: "S01E05 El viaje de una carreta de codiciosos",
         url: "https://short.ink/EC0Zd0fRo"
     },
