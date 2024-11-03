@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .search-container {
+            margin: 20px;
+        }
+        .search-container input {
+            padding: 5px;
+            font-size: 1em;
+            width: 200px;
+        }
+        .carousel {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            max-width: 1000px;
+        }
+        .carousel div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 200px;
+        }
+        .carousel img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .carousel img:hover {
+            transform: scale(1.2);
+        }
+        .carousel div a {
+            text-decoration: none;
+            color: black;
+            width: 100%;
+        }
+        .carousel div p {
+            margin: 5px 0 0 0;
+            word-wrap: break-word;
+        }
+        @media (max-width: 600px) {
+            .carousel div {
+                width: 150px;
+            }
+            .carousel img {
+                height: 150px;
+            }
+        }
+        @keyframes colorAnimation {
+            0% { color: red; }
+            25% { color: orange; }
+            50% { color: yellow; }
+            75% { color: green; }
+            100% { color: blue; }
+        }
+
+        @keyframes blinkAnimation {
+            0%, 100% { color: red; }
+            50% { color: blue; }
+        }
+
+        .animated-link h1 {
+            text-decoration: none;
+            font-weight: bold;
+            animation: colorAnimation 5s linear infinite;
+        }
+
+        .animated-link:hover h1 {
+            animation: blinkAnimation 1s linear infinite;
+        }
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 600px) {
+    .animated-link, .search-container input, .search-container, .carousel {
+        font-size: 0.5em; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+    </style>
+</head>
+<body>
+    <div class="animated-link">
+        <h1>CineKumaribo</h1>
+    </div>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Buscar imágenes...">
+    </div>
+    <div class="carousel" id="carousel">
+        <div>
+            <a href="https://zona02.github.io/buitrago/CNKM/colmillosdelafortuna/facebook-video.html">
+                <img src="https://i.mydramalist.com/Bd5Z16_4f.jpg" alt="Imagen 1">
+                <p>Colmillos de la fortuna FHD Sub [spa]  [2/34]</p>
+            </a>
+        </div>
+<!--        <div>
+            <a href="pagina2.html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyqkqpoLHVrN2pOMOJjMwkN3n1X-8uytE3g&s" alt="Imagen 2">
+                <p>tsuki ga michibiku isekai douchuu t1/t2</p>
+            </a>
+        </div> -->
+        <!-- Agrega más imágenes aquí -->
+    </div>
+    <script>
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const filter = this.value.toLowerCase();
+            const images = document.querySelectorAll('.carousel div');
+
+            images.forEach(image => {
+                const text = image.querySelector('p').textContent.toLowerCase();
+                if (text.includes(filter)) {
+                    image.style.display = 'flex';
+                } else {
+                    image.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
