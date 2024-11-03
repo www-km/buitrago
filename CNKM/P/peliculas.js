@@ -10,18 +10,6 @@ var iframes = [
     {
         name: "No entres 2024",
         url: "https://vidhideplus.com/embed/ylrvb0wchmo2"
-    },
-    {
-        name: "Smile 2 Latino 2024",
-        url: "https://luluvdo.com/e/9e6x25nyijjf"
-    },
- {
-        name: "Terrifier 3 Latino 2024",
-        url: "https://supervideo.cc/e/08hoxsopudry"
-    },
- {
-        name: "Venom 3 el ultimo baile 2024",
-        url: "https://supervideo.cc/e/13mla0ott4qr"
     }
 
 ];
