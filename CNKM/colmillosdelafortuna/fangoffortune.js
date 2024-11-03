@@ -10,7 +10,7 @@ var iframes = [
    
  {
         name: "S01E01 Colmillos de la fortuna",
-        url: "https://drive.google.com/file/d/1q5C33SSV-s2QU1BKLtH9Fy45pIdnavwM/preview"
+        url: "https://mixdrop.is/e/367n66eecmm4v0q"
     },
     {
         name: "S01E02 Colmillos de la fortuna",
