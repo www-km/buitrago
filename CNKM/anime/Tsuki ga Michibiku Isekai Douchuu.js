@@ -127,15 +127,15 @@ var iframes = [
     },
 {
         "name": "S02E18",
-        "url": "https://vidhidepre.com/embed/mt8q537snjkv"
+        "url": "https://streamwish.to/e/3bfm6cjnqx7e"
     },
 {
         "name": "S02E19",
-        "url": "https://vidhidepre.com/embed/9it6zrw0s7fu"
+        "url": "https://streamwish.to/e/6stskkh5xj8v"
     },
 {
         "name": "S02E20",
-        "url": "https://vidhidepre.com/embed/jl86rmvpq950"
+        "url": "https://streamwish.to/e/53s4h4l4cj9w"
     },
 {
         "name": "S02E21",
