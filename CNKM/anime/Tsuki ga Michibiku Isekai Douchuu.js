@@ -123,7 +123,7 @@ var iframes = [
     },
 {
         "name": "S02E17",
-        "url": "https://vidhidevip.com/embed/lx8u530yf2cd"
+        "url": "https://hlswish.com/e/yt5gc7pyl3nf"
     },
 {
         "name": "S02E18",
