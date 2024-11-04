@@ -9,7 +9,7 @@ if ('serviceWorker' in navigator) {
 var iframes = [ 
  {
         name: "Terrifier 3 Latino 2024",
-        url: "https://supervideo.cc/e/08hoxsopudry"
+        url: "https://video1.videa.hu/static/720p/8.2975559.2526115.1.13.1.1?md5=f-2oYsIQJgLLaB-Q2yiz3Q&expires=1730777378"
     }
 ];
 var currentIframeIndex = 0;
