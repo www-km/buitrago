@@ -139,23 +139,23 @@ var iframes = [
     },
 {
         "name": "S02E21",
-        "url": "https://vidhidepre.com/embed/c2vw6tocypcu"
+        "url": "https://streamwish.to/e/twcnijhot7pe"
     },
 {
         "name": "S02E22",
-        "url": "https://vidhidepre.com/embed/f7li1ktojma5"
+        "url": "https://streamwish.to/e/zx1b2pam2uj6"
     },
 {
         "name": "S02E23",
-        "url": "https://vidhidepre.com/embed/bc3a8brp7cub"
+        "url": "https://streamwish.to/e/i4kpw02jt5dg"
     },
 {
         "name": "S02E24",
-        "url": "https://vidhidepre.com/embed/yzqfimbhiid8"
+        "url": "https://streamwish.to/e/nddgq4rdylpu"
     },
 {
         "name": "S02E25",
-        "url": "https://vidhidepre.com/embed/uv2wcjsj94s2"
+        "url": "https://streamwish.to/e/9d14erkuo7m4"
     }
 ];
 var currentIframeIndex = 0;
