@@ -127,7 +127,7 @@ var iframes = [
     },
 {
         "name": "S02E18",
-        "url": "https://www.terabox.com/sharing/embed?surl=80_D7NS24H2XxWHhD6aioQ&resolution=1080&autoplay=false&mute=false&uk=4399233015086&fid=129760090487216&slid="
+        "url": "https://www.mp4upload.com/embed-720vlny4com9.html"
     },
 {
         "name": "S02E19",
