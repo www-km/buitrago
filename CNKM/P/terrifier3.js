@@ -8,9 +8,13 @@ if ('serviceWorker' in navigator) {
 
 var iframes = [ 
  {
-        name: "Terrifier 3 Latino 2024",
-        url: "https://video1.videa.hu/static/720p/8.2975559.2526115.1.13.1.1?md5=f-2oYsIQJgLLaB-Q2yiz3Q&expires=1730777378"
-    }
+        name: "Terrifier 3 Latino 2024 [enlace directo] ",
+        url: "https://video11.videa.hu/static/480p/8.2976710.2528270.1.13.1.1?md5=8xmvnM33gc4pC78CuMIlUw&expires=1730808432"
+    }, 
+    {
+        name: "Terrifier 3 Latino 2024 [embed]", 
+            url: "//videa.hu/player?v=timVWKnV7ACZftJt" 
+               } 
 ];
 var currentIframeIndex = 0;
 
