@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineKumaribo</title>
+    <link rel="icon" href="https://github.com/zona02/SMVL/raw/refs/heads/main/Icon/icono.webp" type="image/x-icon">
+    <link rel="stylesheet" href="descript.css">
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+
+    <div class="kmbo">
+        <h1 onclick="toggleEpisodeList()">Super/man The Christopher Reeve Story</h1>
+    </div>
+<div class="kmbo">
+    <div id="languageDropdown" class="dropdown">
+        <button onclick="showServers('es')">Ingles subtitulado [spa] [1080]</button>
+        <button onclick="showServers('jp')">Ingles Sin Sub [1080p]</button>
+    </div>
+    <div id="serverDropdown" class="dropdown"></div>
+</div>
+
+    <div class="overflow" id="overflow">
+        <div class="overflow-content">
+            <input type="text" id="searchInput" class="search-bar" placeholder="Buscar episodios...">
+            <ul id="episodeList">
+                <!-- Lista de episodios se llenará dinámicamente -->
+            </ul>
+        </div>
+        <div class="overflow-close" onclick="closeOverflow()">✖</div>
+    </div>
+    <div class="container">
+        <div class="iframe-container">
+            <iframe class="video-iframe" id="mainVideo" allowfullscreen></iframe>
+            <div class="watermark">
+                <img src="https://github.com/zona02/SMVL/raw/refs/heads/main/Icon/icono.webp" alt="Logo">
+                <span>CineKumaribo</span>
+            </div>
+        </div>
+        <div class="navigation">
+            <button id="prevButton" onclick="prevIframe()">Anterior</button>
+            <div class="iframe-name" id="iframeName"></div>
+            <button id="nextButton" onclick="nextIframe()">Siguiente</button>
+        </div>
+        <div class="navigation">
+            <button onclick="location.href='index.html'">Pagina Principal</button>
+        </div>
+    </div>
+    
+   
+    <script src="ensayo.js"></script>
+    <script src="videoOptimization.js"></script>
+    <script src="service-worker.js"></script>
+</body>
+</html>
