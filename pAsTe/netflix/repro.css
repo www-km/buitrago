@@ -1,0 +1,96 @@
+ body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .video-container {
+            max-width: 800px;
+height: 650px;
+            width: 90%;
+            padding: 1px;
+            box-sizing: border-box;
+            border: 12px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #333333;
+            background-size: cover;
+            background-position: center;
+        }
+        iframe {
+            width: 100%;
+            height: 450px;
+        }
+        .controls {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .controls button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .language-select, .episode-title {
+            margin-top: 0px;
+        }
+.language-select, .controls button { font-size: 24px; /* ajusta el tamaño de la fuente según sea necesario */
+  font-weight: bold;
+  color: #fff;
+  text-align: center;}
+
+.language-select, .controls button {
+  text-shadow: 
+    3px 3px 1px red,
+    5px 5px 2px yellow,
+    8px 8px 3px blue;
+    ;
+
+}
+h2{
+  text-shadow: 
+    3px 3px 1px red,
+    5px 5px 2px yellow,
+    8px 8px 3px blue;
+    ;
+
+}
+.episode-title {
+    font-family: 'Arial', sans-serif; /* Tipo de fuente */
+    font-size: 2em; /* Tamaño de fuente */
+    font-weight: bold;
+    color: #000; /* Color del texto */
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 600px) {
+    .episode-title {
+        font-size: 1.5em; /* Tamaño de fuente más pequeño */
+    }
+}
+
+.episode-title h2 {
+    position: relative; /* Cambiado de absolute a relative */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; /* Cambiado de 100% a auto */
+    font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    transform-origin: center;
+    animation: girar 10s linear infinite;
+}
+
+.pagination { margin-top: 20px; display: flex; justify-content: center; flex-wrap: wrap; } .pagination button { margin: 5px; padding: 5px 10px; font-size: 16px; cursor: pointer; font-weight: bold; background-color: white; border: 2px solid #007bff; } .pagination button:hover { background: #0b7dda; color: white; }
+/* Responsive styles */ @media (max-width: 600px) { body { font-size: 0.8em; } .video-container { width: 100%; padding: 10px; height: auto; } iframe { width: 100%; height: auto; } .controls { width: 100%; flex-direction: column; align-items: center; } .controls button { width: 100%; font-size: 14px; padding: 5px; margin-bottom: 5px; } .language-select, .episode-title { font-size: 1em; margin-top: 5px; } .language-select label { display: block; font-size: 0.9em; } .language-select select { width: 100%; font-size: 0.9em; } }
