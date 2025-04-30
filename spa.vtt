@@ -2,14 +2,17 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000  
 
 1  
-00:00:00.000 --> 00:00:01.988  
-
+00:00:00.000 --> 00:00:05.963  
+Estos subtitulos son exclusivamente
+para probar
 3  
 00:00:05.964 --> 00:00:12.320  
-
+El reproductor HLS que estoy creando con
+ayuda de las ias Copilot y deepzeek
 5  
 00:00:14.630 --> 00:00:21.240  
-
+kumaribo se convertira en el proveedor de
+contenido en stream mas polular del mundo perros
 8  
 00:00:25.850 --> 00:00:27.140  
 ¿Puede escucharnos?  
