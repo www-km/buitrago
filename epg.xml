@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv source-info-name="EPG Personalizado">
+  <!-- SERIE PRINCIPAL -->
+  <channel id="mandalorian">
+    <display-name lang="en">THE MANDALORIAN</display-name>
+    <icon src="https://tudominio.com/portadas/mandalorian.jpg"/>
+  </channel>
+  <programme channel="mandalorian" start="20240101000000 +0000" stop="20240101010000 +0000">
+    <title lang="en">THE MANDALORIAN</title>
+    <desc lang="en">Un cazarrecompensas solitario en los confines de la galaxia.</desc>
+    <category lang="en">Sci-Fi</category>
+    <icon src="https://tudominio.com/portadas/mandalorian.jpg"/>
+  </programme>
+
+  <!-- EPISODIOS -->
+  <channel id="mando_s1e1">
+    <display-name lang="en">THE MANDALORIAN - S1E1</display-name>
+    <icon src="https://tudominio.com/portadas/mandalorian.jpg"/>
+  </channel>
+  <programme channel="mando_s1e1" start="20240101010000 +0000" stop="20240101020000 +0000">
+    <title lang="en">Chapter 1</title>
+    <desc lang="en">El Mandaloriano acepta un misterioso contrato.</desc>
+  </programme>
+
+  <channel id="mando_s1e2">
+    <display-name lang="en">THE MANDALORIAN - S1E2</display-name>
+    <icon src="https://tudominio.com/portadas/mandalorian.jpg"/>
+  </channel>
+  <programme channel="mando_s1e2" start="20240101020000 +0000" stop="20240101030000 +0000">
+    <title lang="en">Chapter 2</title>
+    <desc lang="en">El Mandaloriano protege a Grogu de los cazadores.</desc>
+  </programme>
+</tv>
