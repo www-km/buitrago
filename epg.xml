@@ -3,8 +3,8 @@
 <tv source-info-name="EPG Personalizado">
   <!-- SERIE PRINCIPAL -->
   <channel id="mandalorian">
-    <display-name lang="en">THE MANDALORIAN</display-name>
-    <icon src="https://tudominio.com/portadas/mandalorian.jpg"/>
+    <display-name lang="en">Las guerreras k-pop</display-name>
+    <icon src="https://s3.fiestareel.com/image/t/p/w500/jfS5KEfiwsS35ieZvdUdJKkwLlZ.jpg"/>
   </channel>
   <programme channel="mandalorian" start="20240101000000 +0000" stop="20240101010000 +0000">
     <title lang="en">THE MANDALORIAN</title>
